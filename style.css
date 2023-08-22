@@ -1,0 +1,86 @@
+head {
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBEBeb;
+}
+.myName {
+    height: 58px;
+    width: fit-content;
+    display: flex;
+    margin-top: 25px;
+    justify-content: left;
+    color: #485A40;
+    font-size:32px ;
+}
+.navBar {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+.menulabel{
+    display: flex;
+    color: #485A40;
+    justify-content: center;
+    align-items: center;
+    width: 208px;
+    height: 51px;
+    min-width: 149px;
+    font-size: 24px;
+    transition: .5s;
+
+}
+.menulabel:hover {
+    display: flex;
+    color: #485A40;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    width: 208px;
+    height: 51px;
+    min-width: 149px;
+    font-size: 24px;
+    transition: .5s;
+}
+.contactme {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 25px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 62px;
+    height: 62px;
+    width: 272px;
+    background-color: #efb59b;
+    color: #485A40;
+    font-size: 32px;
+    font-weight: 300;
+    border-radius: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .5s;
+}
+.button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 62px;
+    height: 62px;
+    width: 272px;
+    background-color: #f6d5c5;
+    color: #406e2d;
+    font-size: 32px;
+    font-weight: 300;
+    text-decoration: underline;
+    border-radius: 24px;
+    margin-top: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: .5s;  
+}
+.hero {
+    display: flex;
+}
