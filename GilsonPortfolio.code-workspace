@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "images",
+			"path": "../../../Desktop/UXUI/Code Activities/Porfolio/images"
+		},
+		{
+			"name": "GilsonPortfolio",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GilsonPortfolio"
+	}
+}
