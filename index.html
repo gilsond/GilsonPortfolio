@@ -18,8 +18,8 @@
     <div class="hero">
         <div class="heroLeft">  
             <div class="resume">
-                <div class="resumeTop">    
-                    <button class="rButton"><img src="/Structure/Vector.png"></button>
+                <div id="kickassId" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
+                    <button id="rbutJs" class="rButton"><img id="pngJs" class="docImg" src="/Structure/Vector.png"></button>
                     <div class="rBtxt">Resume</div>
                 </div>
                 <h2 class="whoMe">Hi, I'm David, A UX/UI Designer</h2>
@@ -46,14 +46,14 @@
                     </div>
                 </div>
                 <div class="gpRight">
-                    <img src="/Structure/Frame 16.png">
+                    <img class="gpImage" src="/Structure/Frame 16.png">
                 </div>
             </div>
         </div>
     </div>
     <div class="divideTwo">
         <div class="rectangle"></div>
-        <div class="sections">skills</div>
+        <div class="sections">My Skills</div>
         <div class="mySkillsA">
             <div calss="skillLvl">Organization 100%</div> 
             <div calss="skillLvl">Collaboration 100%</div>
@@ -62,4 +62,30 @@
     </div>
     
 </body> 
+<script>
+    function onmouseover1(){
+        let myelement = document.getElementById("kickassId");
+        let myelement2 = document.getElementById("pngJs");
+        let myelement3 = document.getElementById("rbutJs");
+        myelement.style.textDecoration = "underline";
+        myelement.style.transitionDuration = "1s";
+        myelement2.style.transform = "rotate(180deg)";
+        myelement2.style.transitionDuration = "1s";
+        myelement3.style.transform = "rotate(180deg)";
+        myelement3.style.transitionDuration = "1s";
+        myelement3.style.backgroundColor = "#7a7a7a";
+    }
+    function onmouseout1(){
+        let myelement = document.getElementById("kickassId");
+        let myelement2 = document.getElementById("pngJs");
+        let myelement3 = document.getElementById("rbutJs");
+        myelement.style.textDecoration = "none";
+        myelement.style.transitionDuration = "1s";
+        myelement2.style.transform = "rotate(0deg)";
+        myelement2.style.transitionDuration = "1s";
+        myelement3.style.transform = "rotate(0deg)";
+        myelement3.style.transitionDuration = "1s";
+        myelement3.style.backgroundColor = "#6F869E";
+    }
+</script>
 </html>
