@@ -4,6 +4,7 @@ head {
 body {
     font-family: Tahoma, Helvetica, sans-serif;
     background-color: #ffffff;
+    background-image: url(/Structure/Background.png) ;
 }
 .myName {
     display: flex;
@@ -102,7 +103,6 @@ body {
     align-items: center;
     align-content: center;
     gap: 133px;
-    align-self: stretch;
     flex-wrap: wrap;
     margin-top: 113px;
 
@@ -119,8 +119,8 @@ body {
 }
 .headshot {
     display: flex;
-    justify-content: right;
-    margin-right: 60px;
+    justify-content: center;
+    margin-right: auto;
 }
 .resume {
     display: flex;
@@ -312,6 +312,7 @@ body {
     text-decoration: underline;
     border: none;
     outline: none;
+    transition: .5s;
 }
 .gpRight {
     display: flex;
@@ -323,4 +324,31 @@ body {
     gap: 10px;
     border-radius: 0px 0px 64px 0px;
     background: #8F42B8;
+}
+.skillsSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+.mySkills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.progBar {
+    margin: 14px;
+}
+.progress {
+    width: 28% !important;
+    height: 75% !important;
+    border-radius: 16px !important;
+}
+.progress-bar {
+    text-indent: 20%;
+    background-color:#6F869E;
+    font-size: medium;
 }
