@@ -144,19 +144,19 @@
     <div class="rectangle"></div>
     <div class="footer">
         <div class="resume">
-            <div id="idIn" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
+            <div id="idIn" class="resumeTop" onmouseover="onmouseover2()" onmouseout="onmouseout2()">    
                 <button id="butIn" class="rButton"><img id="pngIn" class="docImg" src="/Structure/in.png"></button>
                 <div class="rBtxt">LinkedIn</div>
             </div>
         </div>
         <div class="resume">
-            <div id="idMail" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
+            <div id="idMail" class="resumeTop" onmouseover="onmouseover3()" onmouseout="onmouseout3()">    
                 <button id="butMail" class="rButton"><img id="pngMail" class="docImg" src="/Structure/mail.png"></button>
-                <div class="rBtxt">eMail</div>
+                <div class="rBtxt">Mail</div>
             </div>
         </div>
         <div class="resume">
-            <div id="resId2" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
+            <div id="resId2" class="resumeTop" onmouseover="onmouseover4()" onmouseout="onmouseout4()">    
                 <button id="butRes" class="rButton"><img id="pngRes" class="docImg" src="/Structure/Vector.png"></button>
                 <div class="rBtxt">Resume</div>
             </div>
@@ -169,15 +169,6 @@
         let myelement = document.getElementById("resId");
         let myelement2 = document.getElementById("pngJs");
         let myelement3 = document.getElementById("rbutJs");
-        let myelement4 = document.getElementById("idIn");
-        let myelement5 = document.getElementById("pngIn");
-        let myelement6 = document.getElementById("butIn");
-        let myelement7 = document.getElementById("idMail");
-        let myelement8 = document.getElementById("pngMail");
-        let myelement9 = document.getElementById("butMail");
-        let myelement10 = document.getElementById("resId2");
-        let myelement11 = document.getElementById("pngRes");
-        let myelement12 = document.getElementById("butRes");
         myelement.style.textDecoration = "underline";
         myelement.style.transitionDuration = "1s";
         myelement2.style.transform = "rotate(180deg)";
@@ -185,6 +176,23 @@
         myelement3.style.transform = "rotate(180deg)";
         myelement3.style.transitionDuration = "1s";
         myelement3.style.backgroundColor = "#7a7a7a";
+    }
+    function onmouseout1(){
+        let myelement = document.getElementById("resId");
+        let myelement2 = document.getElementById("pngJs");
+        let myelement3 = document.getElementById("rbutJs");
+        myelement.style.textDecoration = "none";
+        myelement.style.transitionDuration = "1s";
+        myelement2.style.transform = "rotate(0deg)";
+        myelement2.style.transitionDuration = "1s";
+        myelement3.style.transform = "rotate(0deg)";
+        myelement3.style.transitionDuration = "1s";
+        myelement3.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover2(){
+        let myelement4 = document.getElementById("idIn");
+        let myelement5 = document.getElementById("pngIn");
+        let myelement6 = document.getElementById("butIn");
         myelement4.style.textDecoration = "underline";
         myelement4.style.transitionDuration = "1s";
         myelement5.style.transform = "rotate(180deg)";
@@ -192,6 +200,23 @@
         myelement6.style.transform = "rotate(180deg)";
         myelement6.style.transitionDuration = "1s";
         myelement6.style.backgroundColor = "#7a7a7a";
+    }
+    function onmouseout2(){
+        let myelement4 = document.getElementById("idIn");
+        let myelement5 = document.getElementById("pngIn");
+        let myelement6 = document.getElementById("butIn");
+        myelement4.style.textDecoration = "none";
+        myelement4.style.transitionDuration = "1s";
+        myelement5.style.transform = "rotate(0deg)";
+        myelement5.style.transitionDuration = "1s";
+        myelement6.style.transform = "rotate(0deg)";
+        myelement6.style.transitionDuration = "1s";
+        myelement6.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover3(){
+        let myelement7 = document.getElementById("idMail");
+        let myelement8 = document.getElementById("pngMail");
+        let myelement9 = document.getElementById("butMail");
         myelement7.style.textDecoration = "underline";
         myelement7.style.transitionDuration = "1s";
         myelement8.style.transform = "rotate(180deg)";
@@ -199,6 +224,23 @@
         myelement9.style.transform = "rotate(180deg)";
         myelement9.style.transitionDuration = "1s";
         myelement9.style.backgroundColor = "#7a7a7a";
+    }
+    function onmouseout3(){
+        let myelement7 = document.getElementById("idMail");
+        let myelement8 = document.getElementById("pngMail");
+        let myelement9 = document.getElementById("butMail");
+        myelement7.style.textDecoration = "none";
+        myelement7.style.transitionDuration = "1s";
+        myelement8.style.transform = "rotate(0deg)";
+        myelement8.style.transitionDuration = "1s";
+        myelement9.style.transform = "rotate(0deg)";
+        myelement9.style.transitionDuration = "1s";
+        myelement9.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover4(){
+        let myelement10 = document.getElementById("resId2");
+        let myelement11 = document.getElementById("pngRes");
+        let myelement12 = document.getElementById("butRes");
         myelement10.style.textDecoration = "underline";
         myelement10.style.transitionDuration = "1s";
         myelement11.style.transform = "rotate(180deg)";
@@ -207,40 +249,10 @@
         myelement12.style.transitionDuration = "1s";
         myelement12.style.backgroundColor = "#7a7a7a";
     }
-    function onmouseout1(){
-        let myelement = document.getElementById("resId");
-        let myelement2 = document.getElementById("pngJs");
-        let myelement3 = document.getElementById("rbutJs");
-        let myelement4 = document.getElementById("idIn");
-        let myelement5 = document.getElementById("pngIn");
-        let myelement6 = document.getElementById("butIn");
-        let myelement7 = document.getElementById("idMail");
-        let myelement8 = document.getElementById("pngMail");
-        let myelement9 = document.getElementById("butMail");
+    function onmouseout4(){
         let myelement10 = document.getElementById("resId2");
         let myelement11 = document.getElementById("pngRes");
         let myelement12 = document.getElementById("butRes");
-        myelement.style.textDecoration = "none";
-        myelement.style.transitionDuration = "1s";
-        myelement2.style.transform = "rotate(0deg)";
-        myelement2.style.transitionDuration = "1s";
-        myelement3.style.transform = "rotate(0deg)";
-        myelement3.style.transitionDuration = "1s";
-        myelement3.style.backgroundColor = "#6F869E";
-        myelement4.style.textDecoration = "none";
-        myelement4.style.transitionDuration = "1s";
-        myelement5.style.transform = "rotate(0deg)";
-        myelement5.style.transitionDuration = "1s";
-        myelement6.style.transform = "rotate(0deg)";
-        myelement6.style.transitionDuration = "1s";
-        myelement6.style.backgroundColor = "#6F869E";
-        myelement7.style.textDecoration = "none";
-        myelement7.style.transitionDuration = "1s";
-        myelement8.style.transform = "rotate(0deg)";
-        myelement8.style.transitionDuration = "1s";
-        myelement9.style.transform = "rotate(0deg)";
-        myelement9.style.transitionDuration = "1s";
-        myelement9.style.backgroundColor = "#6F869E";
         myelement10.style.textDecoration = "none";
         myelement10.style.transitionDuration = "1s";
         myelement11.style.transform = "rotate(0deg)";
