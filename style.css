@@ -4,7 +4,7 @@ head {
 body {
     font-family: Tahoma, Helvetica, sans-serif;
     background-color: #ffffff;
-    background-image: url(/Structure/Background.png) ;
+    background-image: url(Structure/Background.png) ;
 }
 .myName {
     display: flex;
