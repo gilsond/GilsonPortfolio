@@ -18,6 +18,8 @@ body {
     margin-top: 36px;
     margin-left: 96px;
     margin-right: auto;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 .navBar {
     display: flex;
@@ -77,6 +79,8 @@ body {
     transition: .5s;
     border: none;
     outline: none;
+    margin-right: 96px;
+    margin-left:auto;
 }
 .button:hover {
     display: inline-flex;
@@ -423,16 +427,18 @@ p {
 .skillsSection {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: fit-content;
     margin: auto;
 }
 .mySkills {
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: row;
-    gap: 55px;
+    gap: 25px;
     justify-content: center;
     padding-bottom: 25px;
+    flex-wrap: wrap;
 }
 .skillsPara {
     padding-bottom: 40px;
@@ -441,15 +447,15 @@ p {
     margin: 14px;
 }
 .progress {
-    width: 28% !important;
-    height: 75% !important;
+    width: 368px !important;
+    height: 36px !important;
     border-radius: 16px !important;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .progress-bar {
     text-indent: 20%;
     background-color:#BCD2EB;
-    font-size: medium;
+    font-size: large;
     color: #7A7A7A !important;
     font-weight: bold;
     
@@ -500,7 +506,7 @@ h5 {
 .rectangleF {
     width: fill;
     height: 64px;
-    background: #6F869E;
+    background: #BCD2EB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
 }
