@@ -10,6 +10,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "GilsonPortfolio"
+		"liveServer.settings.multiRootWorkspaceName": "GilsonPortfolio",
+		"liveServer.settings.port": 5501
 	}
 }
