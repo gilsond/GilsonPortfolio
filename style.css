@@ -415,6 +415,96 @@ body {
     border-radius: 0px 0px 64px 0px;
     background: #cde1c5;
 }
+.bounceLeft {
+    width: 684px;
+    height: 685px;
+    flex-shrink: 0;
+    border-radius: 64px 0px 0px 0px;
+    background: #004cbd;
+}
+.bounceCase {
+    display: flex;
+    width: 408px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    left: 138px;
+    top: 228px;
+}
+.bouncecaseTitle {
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0;
+}
+.bounceInfo {
+    width: 408px;
+    color: #EBEBEB;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.bounceButt {
+    display: flex;
+    padding: 8px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    color: #004cbd;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #ffa015;
+    border: none;
+    outline: none;
+    
+}
+.bounceButt:hover {
+    display: flex;
+    padding: 8px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    color: #ffffff;
+    font-family: Tahoma;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #b06b06;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+.bounceRight {
+    display: flex;
+    width: 684px;
+    height: 685px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 0px 64px 0px;
+    background: #1f9de2;
+}
+.bImage1 {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
 p {
     display: flex;
     font-size: 20px;
@@ -509,4 +599,79 @@ h5 {
     background: #BCD2EB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+    max-width: 560px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+.mySlides {
+    max-height: 480px;
+    width: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color:#c177c7;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 24px;
+    padding: 16px 12px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: #ffa015;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.dotTrack {
+    text-align: center;
+    padding: 8px;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
