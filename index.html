@@ -158,6 +158,15 @@
             </div>
         </div>
     <div class="divideThree">
+        <div>
+            <p class="badgesPara">I am proud to have earned badges in Interface Design, User Experience and Design Thinking, Visual Design, and Web Design from UC Irvine. These badges represent my commitment to honing my skills in creating intuitive user interfaces, crafting engaging user experiences, mastering the art of visual design, and designing functional and aesthetically pleasing websites.</p>
+        </div>
+        <div class="bling">
+            <img class="certShield" src="Structure/interface-design-no-bg.png" alt="Interface Design Certification Shield from UC Irvine">
+            <img class="certShield" src="Structure/user-experience-and-design-thinking-no-bg.png" alt="User Experience and Design Thinking Certification Shield from UC Irvine">
+            <img class="certShield" src="Structure/visual-design-no-bg.png" alt="Visual Design Certification Shield from UC Irvine">
+            <img class="certShield" src="Structure/web-design-no-bg.png" alt="Web Design Shield from UC Irvine">
+        </div>
         <div id="myPr" class="rectangle"></div>
         <div class="sections">My Principles</div>
         <div class="myPrinc">
@@ -202,6 +211,12 @@
             <div id="resId2" class="resumeTop" onmouseover="onmouseover4()" onmouseout="onmouseout4()">    
                 <button id="butRes" class="rButton"><img id="pngRes" class="docImg" src="Structure/Vector.png" alt="resume graphic"></button>
                 <div class="rBtxt">Resume</div>
+            </div>
+        </div>
+        <div class="resume">
+            <div id="idGit" class="resumeTop" onmouseover="onmouseover5()" onmouseout="onmouseout5()">
+                <button id="butGit" class="rButton"><img id="pngGit" class="docImg" src="Structure/git.png" alt="GitHub logo graphic"></button>
+                <div class="rBtxt">GitHub</div>
             </div>
         </div>
     </div>   
@@ -304,6 +319,30 @@
         myelement12.style.transitionDuration = "1s";
         myelement12.style.backgroundColor = "#6F869E";
     }
+    function onmouseover5(){
+        let myelement13 = document.getElementById("idGit");
+        let myelement14 = document.getElementById("pngGit");
+        let myelement15 = document.getElementById("butGit");
+        myelement13.style.textDecoration = "underline";
+        myelement13.style.transitionDuration = "1s";
+        myelement14.style.transform = "rotate(180deg)";
+        myelement14.style.transitionDuration = "1s";
+        myelement15.style.transform = "rotate(180deg)";
+        myelement15.style.transitionDuration = "1s";
+        myelement15.style.backgroundColor = "#96b6d6";
+    }
+    function onmouseout5(){
+        let myelement13 = document.getElementById("idGit");
+        let myelement14 = document.getElementById("pngGit");
+        let myelement15 = document.getElementById("butGit");
+        myelement13.style.textDecoration = "none";
+        myelement13.style.transitionDuration = "1s";
+        myelement14.style.transform = "rotate(0deg)";
+        myelement14.style.transitionDuration = "1s";
+        myelement15.style.transform = "rotate(0deg)";
+        myelement15.style.transitionDuration = "1s";
+        myelement15.style.backgroundColor = "#6F869E";
+    }    
 let slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {

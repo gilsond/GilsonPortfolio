@@ -209,7 +209,7 @@ a {
     align-self: stretch;
     color: #7A7A7A;
     font-family: Tahoma;
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -555,7 +555,20 @@ p {
     font-size: large;
     color: #7A7A7A !important;
     font-weight: bold;
-    
+}
+.badgesPara {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.bling {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.certShield {
+    width: 324px;
+    height: auto;
 }
 .myPrinc {
     display: flex;
