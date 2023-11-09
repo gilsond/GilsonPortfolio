@@ -9,6 +9,12 @@ body {
 a {
     text-decoration: none;
 }
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
 .myName {
     display: flex;
     flex-direction: row;
@@ -223,6 +229,13 @@ a {
     background: #BCD2EB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
+}
+.rectangle2 {
+    width: fill;
+    height: 7px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
 }
 .sections {
     color: #6F869E;

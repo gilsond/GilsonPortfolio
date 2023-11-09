@@ -6,5 +6,40 @@
         <link rel="stylesheet" href="ecstyle.css">
 </head>
 <body>
-    <H1>E-Cycle Bin</H1>
+    <div class="topBar">
+        <H1>Ecycle-Bin Application Design Project</H1>
+        <div id="resId" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
+            <a href="/index.html"><button id="rbutJs" class="rButton"><img id="pngJs" class="docImg" src="Structure/porthome.png" alt="profile graphic"></button></a>
+            <div class="rBtxt">Home</div>
+        </div>
+    </div>
 </body>
+<script>
+        function onmouseover1(){
+        let myelement = document.getElementById("resId");
+        let myelement2 = document.getElementById("pngJs");
+        let myelement3 = document.getElementById("rbutJs");
+        myelement.style.textDecoration = "underline";
+        myelement.style.transitionDuration = "1s";
+        myelement2.style.transform = "rotate(180deg)";
+        myelement2.style.transitionDuration = "1s";
+        myelement3.style.transform = "rotate(180deg)";
+        myelement3.style.transitionDuration = "1s";
+        myelement3.style.backgroundColor = "#4e7d77";
+        myelement.style.color = "#4e7d77";
+    }
+    function onmouseout1(){
+        let myelement = document.getElementById("resId");
+        let myelement2 = document.getElementById("pngJs");
+        let myelement3 = document.getElementById("rbutJs");
+        myelement.style.textDecoration = "none";
+        myelement.style.transitionDuration = "1s";
+        myelement2.style.transform = "rotate(0deg)";
+        myelement2.style.transitionDuration = "1s";
+        myelement3.style.transform = "rotate(0deg)";
+        myelement3.style.transitionDuration = "1s";
+        myelement3.style.backgroundColor = "#A1C0DE";
+        myelement.style.color = "#ffffff"
+    }
+</script>
+</html>
