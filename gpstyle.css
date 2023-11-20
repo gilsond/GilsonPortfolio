@@ -156,6 +156,7 @@ h2 {
     max-width: 480px;
     min-width: 250px;
     flex-shrink: inherit;
+    border-radius: 4px;
 }
 .bgPara {
     font-size: 24px;
@@ -208,16 +209,19 @@ h2 {
     min-width: 340px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4px;
 }
 .gp-case-img-b {
     display: flex;
     min-width: 324px;
+    border-radius: 4px;
 }
 .gp-case-img-l {
     display: flex;
     width: max-content;
     height: auto;
     margin-top: 16px;
+    border-radius: 4px;
 }
 .gp-case-img-w {
     display: flex;

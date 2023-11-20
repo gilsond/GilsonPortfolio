@@ -6,13 +6,154 @@
         <link rel="stylesheet" href="ecstyle.css">
 </head>
 <body>
-    <div class="topBar">
-        <H1>Ecycle-Bin Application Design Project</H1>
-        <div id="resId" class="resumeTop" onmouseover="onmouseover1()" onmouseout="onmouseout1()">    
-            <a href="/index.html"><button id="rbutJs" class="rButton"><img id="pngJs" class="docImg" src="Structure/porthome.png" alt="profile graphic"></button></a>
-            <div class="rBtxt">Home</div>
+    <a id="top"></a>
+    <header class="header">
+        <div class="rectangle2"></div>
+        <nav class="nav-bar">
+            <a href="index.html" class="headerContent">David Gilson</a>
+            <a href="#top"><img class="dgLogo" src="Structure/DGlogo.png" alt="David Gilson initials"></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Portfolio Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gpindex.html" class="nav-link">Goldie and Papis'</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bounceindex.html" class="nav-link">Bounce</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+        <div class="rectangle2"></div>
+    </header>
+    </div>
+    <div class="gpIntro">
+        <div class="infoContainer">
+            <h1>E-cycle Bin</h1>
+            <p class="bgPara">An application design project aimed at providing busy idividuals and easy and efficient method to recycle e-waste. E-cycle Bin makes disposing of e-waste simple, quick, and environmently conscious.</p>
+        </div>
+        <div class="imgCon"><img class="bgImg" src="Structure/E-Cycle Bin.png" alt="human hand and cat paw touching"></div>
+    </div>
+
+    <div class="gp-content">
+        <div class="gp-case-textbox">
+            <h2>Background</h2>
+            <p class="gpPara">
+                E-waste poses a significant threat to the environment and natural resources. In the United States, a staggering 46 pounds of e-waste is generated per person annually. This amounts to a colossal 50 million tons of e-waste globally, equivalent to the weight of approximately 4,500 Eiffel Towers. Despite the magnitude of this issue, a considerable number of individuals fail to engage in proper e-waste recycling, often deterred by the perceived frustration and inefficiency associated with the process. Addressing this challenge is crucial to mitigating the environmental impact of electronic waste and promoting sustainable disposal practices.</p>
+        </div>
+        <div class="gp-img-container">
+            <img class="gp-case-img" src="Structure/ec-heavy-waste.jpg" alt="An illustration of a man carrying a heavy bundle of e-waste" style="width: 90%;">
+            <p class="gpCaption">Illustration by William Tan</p>
+        </div>
+        <div class="gp-case-textbox">
+            <p class="gpPara">Our project centered on user experience, prompting the team to focus on designing an application that could simplify the intricate process of recycling e-waste.</p>
+        </div>
+        <div class="gp-case-textbox">
+            <h2>User Research</h2>
+            <p class="gpPara">In our user interviews and surveys, a consistent theme emerged: users were neglecting to recycle their old electronic waste due to a lack of knowledge regarding how and where to do so. This highlighted a crucial gap in information accessibility and underscored the need for an intuitive and user-friendly solution to guide individuals in responsibly disposing of their electronic devices.</p>
+        </div>
+        <div class="gp-img-container">
+            <img class="gp-case-img-b" src="Structure/ec-team-e-waste.png" alt="The team holding up their e-waste">
+            <p class="gpCaption">Showing off our own collections of e-waste</p>
+        </div>
+        <div class="gp-case-textbox">
+            <p class="gpPara">Armed with the insights garnered from our research, we crafted a compelling user persona named George – an IT engineer with a sincere desire to be environmentally conscious. However, George grapples with the challenge of finding the time and energy to navigate the complexities of recycling his collection of e-waste</p>
+        </div>
+        <div class="gp-img-container">
+            <img class="gp-case-img-b" src="Structure/ec-weight-of-waste.jpg" alt="An illustration of e-waste recycled versus unrecycled on a scale, tipping in favor of unrecycled">
+            <p class="gpCaption">Illustration by William Tan</p>
+        </div>
+        <div class="gp-case-textbox">
+            <p class="gpPara">Subsequently, the team developed a user journey map to visually depict George's challenges, offering valuable guidance on where our design should focus to enhance the overall user experience.</p>
+        </div>
+        <div class="gp-img-container">
+            <img class="gp-case-img" src="Structure/ec-journey-map.png" alt="image of user journey map" style="width: 110%;">
+            <p class="gpCaption">User Journey Map</p>
+        </div>
+        <div class="gp-case-textbox">
+            <h2>User Experience Design</h2>
+            <p class="gpPara">During user interviews and surveys, we uncovered legitimate concerns among individuals contemplating pet adoption, particularly regarding how a new pet would fit into their lives. A prevailing theme among participants emphasized the need for more personalized information about the animals, tailored to their individual circumstances.</p>
+        </div>
+        <div class="gp-img-container">
+            <div class="gp-cap-container">
+                <img class="gp-case-img" src="Structure/ec-user-flow.png" alt="E-Cycle Bin's user flow">
+                <p class="gpCaption">User Flow</p>
+            </div>
+        </div>
+        <div class="gp-case-textbox">
+            <p class="gpPara">These concerns sparked the concept of a pet questionnaire survey designed to match an animal based on a series of questions about the adopter and their lifestyle. We then conducted user testing of the prototype.</p>
+            <p class="gpPara">Our primary objective was to uncover any potential pain points in the user experience and highlight key features of the website. To achieve this, we crafted a series of tasks designed to simulate real-world scenarios for our users. These tasks included utilizing the Match Quiz to find a suitable pet for adoption, exploring the 'Recent Arrivals' section, delving into extended descriptions for available pets, accessing the Foster Application for a chosen pet, and locating contact information for someone within the organization. By engaging users in these tasks, we gained valuable insights into the user journey, enabling us to refine and enhance the overall website experience for optimal usability and satisfaction.</p>
+        </div>
+        <div class="gp-img-container-row">
+            <div class="gp-cap-container">
+                <img class="gp-case-img-w" src="Structure/ec-wf-landing.png" alt="E-Cycle Bin Landing page">
+                <p class="gpCaption">Landing page wireframe</p>
+            </div>
+            <div class="gp-cap-container">
+                <img class="gp-case-img-w" src="Structure/ec-wf-recycling-bin.png" alt="E-Cycle Bin Recycling Bin page">
+                <p class="gpCaption">Recycling Bin wireframe</p>
+            </div>
+            <div class="gp-cap-container">
+                <img class="gp-case-img-w" src="Structure/ec-wf-map.png" alt="E-Cycle Bin ">
+                <p class="gpCaption">Map wireframe</p>
+            </div>
+        </div>
+        <div class="gp-case-textbox">
+            <p class="gpPara">These concerns sparked the concept of a pet questionnaire survey designed to match an animal based on a series of questions about the adopter and their lifestyle. We then conducted user testing of the prototype.</p>
+            <p class="gpPara">Our primary objective was to uncover any potential pain points in the user experience and highlight key features of the website. To achieve this, we crafted a series of tasks designed to simulate real-world scenarios for our users. These tasks included utilizing the Match Quiz to find a suitable pet for adoption, exploring the 'Recent Arrivals' section, delving into extended descriptions for available pets, accessing the Foster Application for a chosen pet, and locating contact information for someone within the organization. By engaging users in these tasks, we gained valuable insights into the user journey, enabling us to refine and enhance the overall website experience for optimal usability and satisfaction.</p>
+        </div>
+        <div class="gp-img-container">
+            <div class="gp-cap-container">
+                <img class="gp-case-img" src="/Structure/ec-wireframing.png" alt="E-Cycle Bin's prototyping">
+                <p class="gpCaption">prototype</p>
+            </div>
         </div>
     </div>
+    <div class="gp-content">
+        <div class="gp-case-textbox">
+            <h2>Conclusion and Reflections</h2>
+            <p class="gpPara">Reflecting on the entirety of this project, our team has successfully navigated the intricacies of user experience (UX) and user interface (UI) design to elevate Goldie and Papis' online presence. From the inception of the project, where we identified user concerns through interviews and surveys, to the implementation of a comprehensive pet questionnaire survey to address individual adopter needs, our approach has been user-centric and data-driven.</p>
+            <p class="gpPara">In the realm of visual design, leveraging artificial intelligence to simulate professional pet photography was a game-changer. The strategic use of vibrant deep pinks and purples, coupled with ample white space, created an inviting and joyful aesthetic on the website, aligning seamlessly with Goldie and Papis' identity.</p>
+            <p class="gpPara">Personally, this project has been transformative for my UX and UI skills. Navigating the challenges of designing a platform that not only addresses user concerns but also embodies the values of the organization has sharpened my ability to balance functionality and aesthetics. The integration of user feedback, iterative testing, and the application of AI in visual design have expanded my toolkit and deepened my understanding of creating user-centric digital experiences.</p>
+            <p class="gpPara">As we conclude this project, the lessons learned and skills honed will undoubtedly serve as a solid foundation for future endeavors in the dynamic and ever-evolving field of UX and UI design.</p>
+        </div>
+        <div class="gp-img-container">
+        </div>
+    </div>
+
+    <div class="rectangle"></div>
+    <div class="footer">
+        <div class="resume">
+            <div id="idIn" class="resumeTop" onmouseover="onmouseover2()" onmouseout="onmouseout2()">    
+                <a href="https://www.linkedin.com/in/davidigilson" target="_blank"><button id="butIn" class="rButton"><img id="pngIn" class="docImg" src="Structure/in.png" alt="linkedIn logo graphic"></button></a>
+                <div class="rBtxt">LinkedIn</div>
+            </div>
+        </div>
+        <div class="resume">
+            <div id="idMail" class="resumeTop" onmouseover="onmouseover3()" onmouseout="onmouseout3()">    
+                <a href="mailto:davidigilson@gmail.com?" target="_blank"><button id="butMail" class="rButton"><img id="pngMail" class="docImg" src="Structure/mail.png" alt="envelope graphic"></button></a>
+                <div class="rBtxt">Mail</div>
+            </div>
+        </div>
+        <div class="resume">
+            <div id="resId2" class="resumeTop" onmouseover="onmouseover4()" onmouseout="onmouseout4()">    
+                <a href="https://docs.google.com/document/d/17D0UZcwCs1hSBKu50PUX-Ule3xr8MAjN-iabrTjH2yg/edit?usp=sharing" target="_blank"><button id="butRes" class="rButton"><img id="pngRes" class="docImg" src="Structure/Vector.png" alt="resume graphic"></button></a>
+                <div class="rBtxt">Resume</div>
+            </div>
+        </div>
+        <div class="resume">
+            <div id="idGit" class="resumeTop" onmouseover="onmouseover5()" onmouseout="onmouseout5()">
+                <a href="https://github.com/gilsond" target="_blank"><button id="butGit" class="rButton"><img id="pngGit" class="docImg" src="Structure/git.png" alt="GitHub logo graphic"></button></a>
+                <div class="rBtxt">GitHub</div>
+            </div>
+        </div>
+    </div>   
+    <div class="rectangleF"></div>
 </body>
 <script>
         function onmouseover1(){
@@ -41,5 +182,112 @@
         myelement3.style.backgroundColor = "#A1C0DE";
         myelement.style.color = "#ffffff"
     }
+    function onmouseover2(){
+        let myelement4 = document.getElementById("idIn");
+        let myelement5 = document.getElementById("pngIn");
+        let myelement6 = document.getElementById("butIn");
+        myelement4.style.textDecoration = "underline";
+        myelement4.style.transitionDuration = "1s";
+        myelement5.style.transform = "rotate(180deg)";
+        myelement5.style.transitionDuration = "1s";
+        myelement6.style.transform = "rotate(180deg)";
+        myelement6.style.transitionDuration = "1s";
+        myelement6.style.backgroundColor = "#96b6d6";
+    }
+    function onmouseout2(){
+        let myelement4 = document.getElementById("idIn");
+        let myelement5 = document.getElementById("pngIn");
+        let myelement6 = document.getElementById("butIn");
+        myelement4.style.textDecoration = "none";
+        myelement4.style.transitionDuration = "1s";
+        myelement5.style.transform = "rotate(0deg)";
+        myelement5.style.transitionDuration = "1s";
+        myelement6.style.transform = "rotate(0deg)";
+        myelement6.style.transitionDuration = "1s";
+        myelement6.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover3(){
+        let myelement7 = document.getElementById("idMail");
+        let myelement8 = document.getElementById("pngMail");
+        let myelement9 = document.getElementById("butMail");
+        myelement7.style.textDecoration = "underline";
+        myelement7.style.transitionDuration = "1s";
+        myelement8.style.transform = "rotate(180deg)";
+        myelement8.style.transitionDuration = "1s";
+        myelement9.style.transform = "rotate(180deg)";
+        myelement9.style.transitionDuration = "1s";
+        myelement9.style.backgroundColor = "#96b6d6";
+    }
+    function onmouseout3(){
+        let myelement7 = document.getElementById("idMail");
+        let myelement8 = document.getElementById("pngMail");
+        let myelement9 = document.getElementById("butMail");
+        myelement7.style.textDecoration = "none";
+        myelement7.style.transitionDuration = "1s";
+        myelement8.style.transform = "rotate(0deg)";
+        myelement8.style.transitionDuration = "1s";
+        myelement9.style.transform = "rotate(0deg)";
+        myelement9.style.transitionDuration = "1s";
+        myelement9.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover4(){
+        let myelement10 = document.getElementById("resId2");
+        let myelement11 = document.getElementById("pngRes");
+        let myelement12 = document.getElementById("butRes");
+        myelement10.style.textDecoration = "underline";
+        myelement10.style.transitionDuration = "1s";
+        myelement11.style.transform = "rotate(180deg)";
+        myelement11.style.transitionDuration = "1s";
+        myelement12.style.transform = "rotate(180deg)";
+        myelement12.style.transitionDuration = "1s";
+        myelement12.style.backgroundColor = "#96b6d6";
+    }
+    function onmouseout4(){
+        let myelement10 = document.getElementById("resId2");
+        let myelement11 = document.getElementById("pngRes");
+        let myelement12 = document.getElementById("butRes");
+        myelement10.style.textDecoration = "none";
+        myelement10.style.transitionDuration = "1s";
+        myelement11.style.transform = "rotate(0deg)";
+        myelement11.style.transitionDuration = "1s";
+        myelement12.style.transform = "rotate(0deg)";
+        myelement12.style.transitionDuration = "1s";
+        myelement12.style.backgroundColor = "#6F869E";
+    }
+    function onmouseover5(){
+        let myelement13 = document.getElementById("idGit");
+        let myelement14 = document.getElementById("pngGit");
+        let myelement15 = document.getElementById("butGit");
+        myelement13.style.textDecoration = "underline";
+        myelement13.style.transitionDuration = "1s";
+        myelement14.style.transform = "rotate(180deg)";
+        myelement14.style.transitionDuration = "1s";
+        myelement15.style.transform = "rotate(180deg)";
+        myelement15.style.transitionDuration = "1s";
+        myelement15.style.backgroundColor = "#96b6d6";
+    }
+    function onmouseout5(){
+        let myelement13 = document.getElementById("idGit");
+        let myelement14 = document.getElementById("pngGit");
+        let myelement15 = document.getElementById("butGit");
+        myelement13.style.textDecoration = "none";
+        myelement13.style.transitionDuration = "1s";
+        myelement14.style.transform = "rotate(0deg)";
+        myelement14.style.transitionDuration = "1s";
+        myelement15.style.transform = "rotate(0deg)";
+        myelement15.style.transitionDuration = "1s";
+        myelement15.style.backgroundColor = "#6F869E";
+    } 
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n. addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
 </script>
 </html>
