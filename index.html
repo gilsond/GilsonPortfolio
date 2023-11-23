@@ -9,17 +9,30 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <a id="top"></a>
-    <div class="header">
+    <header class="header">
         <div class="rectangle2"></div>
-        <div class="myName">
-            <h1 class="myName">David I Gilson</h1>
-            <a href="#top"><img class="dgLogo" src="/Structure/DGlogo.png" alt="David Gilson initials"></a>
-            <div class="contactme">
-                <button class="button">Contact Me</button>
-             </div>
-        </div>
+        <nav class="nav-bar">
+            <a href="index.html" class="headerContent">David Gilson</a>
+            <a href="#top"><img class="dgLogo" src="Structure/DGlogo.png" alt="David Gilson initials"></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Portfolio Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="ecindex.html" class="nav-link">E-Cycle Bin</a>
+                </li>
+                <li class="nav-item">
+                    <a href="bounceindex.html" class="nav-link">Bounce</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
         <div class="rectangle2"></div>
-    </div> 
+    </header>
     <nav class="navBar">
        <div onclick="window.location.href='#myW'" class="menulabel">My Work</div>
        <div onclick="window.location.href='#myS'" class="menulabel">My Skills</div>
@@ -372,5 +385,17 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".nav-link").forEach(n => n. addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
 </script>
 </html>

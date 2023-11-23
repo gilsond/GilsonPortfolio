@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     background-image: url(Structure/Background.png);
+    font-family: tahoma, Helvetica, sans-serif;
 }
 .header {
     position: sticky;
