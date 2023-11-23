@@ -462,6 +462,7 @@ a {
 .nav-item :hover {
     font-size: 24px;
     color: #A1C0DE;
+    text-decoration: underline;
 }
 .hamburger {
     display:block;
@@ -492,7 +493,7 @@ a {
     gap: 0;
     flex-direction: column;
     background-color: #ffffff;
-    width: 24%;
+    width: 216px;
     text-align: center;
     transition: 0.3s;
     border-color: #fafafa;
@@ -503,8 +504,8 @@ a {
 .nav-item {
     font-size: 24px;
 }
-.nav-menu:active {
-    right: 96px;
+.nav-menu.active {
+    right: 80px;
 }
 .resumeNav {
     margin-right: 96px;
