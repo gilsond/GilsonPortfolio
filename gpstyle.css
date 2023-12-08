@@ -124,9 +124,10 @@ h1 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin-left: 0;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 64px;
+    justify-content: center;
 }
 h2 {
     display: flex;
@@ -237,15 +238,15 @@ h2 {
     background-color: #ffffffbe;
 }
 .slideshow-title {
-    margin-left: 96px;
-    margin-bottom: 16px;
+    /* margin-left: 96px; */
+    /* margin-bottom: 16px; */
 }
 .gpSlide {
     display: flex;
     flex-direction: row;
     width: 90%;
     height: 664px;
-    background-image: url(/Structure/gpbackground.png);
+    background-image: url(Structure/gpbackground.png);
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
@@ -257,7 +258,7 @@ h2 {
     flex-direction: row;
     width: 90%;
     height: 664px;
-    background-image: url(/Structure/gpslide_2_background.png);
+    background-image: url(Structure/gpslide_2_background.png);
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
@@ -270,7 +271,7 @@ h2 {
     flex-direction: row;
     width: 90%;
     height: 664px;
-    background-image: url(/Structure/gpslide_3_background.png);
+    background-image: url(Structure/gpslide_3_background.png);
     margin-left: auto;
     margin-right: auto;
     border-radius: 16px;
