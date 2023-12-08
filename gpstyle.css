@@ -237,10 +237,6 @@ h2 {
     padding-top: 24px;
     background-color: #ffffffbe;
 }
-.slideshow-title {
-    /* margin-left: 96px; */
-    /* margin-bottom: 16px; */
-}
 .gpSlide {
     display: flex;
     flex-direction: row;
