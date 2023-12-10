@@ -848,7 +848,7 @@ a {
     align-items: center; 
 }
 .dgLogo {
-    margin-left: 8px;
+    margin-left: 16px;
     margin-right: auto;
     /* padding-right: 180px; */
     margin-top: 16px;
@@ -905,7 +905,7 @@ a {
     display:block;
     cursor: pointer;
     background: none !important;
-    margin-right: 8px;
+    margin-right: 16px;
 }
 .bar {
     display:block;
@@ -947,7 +947,7 @@ a {
     height: 29px;
 }
 .nav-menu.active {
-    right: 80px;
+    right: 8px;
 }
 .navBar {
     display: flex;
@@ -1037,7 +1037,7 @@ a {
     gap: 48px;
     flex-wrap: wrap;
     margin-top: 96px;
-    margin-left: 4px;
+    margin-left: 16px;
 
 }
 .heroLeft {
@@ -1115,6 +1115,9 @@ a {
     width: auto;
     height: auto;
 }
+.hsImage {
+    width: 90%;
+}
 .introText {
     display: flex;
     flex-direction: column;
@@ -1179,36 +1182,36 @@ a {
 
 }
 .gpLeft {
-    width: 684px;
-    height: 685px;
+    display: flex;
+    align-items: center;
+    width: 416px;
+    height: 468px;
     flex-shrink: 0;
-    border-radius: 64px 0px 0px 0px;
+    border-radius: 24px 24px 0px 0px;
     background: #28233E;
 }
 .gpCase {
     display: flex;
-    width: 408px;
+    width: auto;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    left: 138px;
-    top: 228px;
+    gap: 16px;
+    margin-left: 16px;
 }
 .gpcaseTitle {
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin:0;
 }
 .gpInfo {
-    width: 408px;
+    width: auto;
     color: #EBEBEB;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1222,7 +1225,7 @@ a {
     border-radius: 24px;
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1240,7 +1243,7 @@ a {
     border-radius: 24px;
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1252,14 +1255,17 @@ a {
 }
 .gpRight {
     display: flex;
-    width: 684px;
-    height: 685px;
+    width: 416px;
+    height: 468px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 0px 0px 64px 0px;
+    border-radius: 0px 0px 24px 24px;
     background: #8F42B8;
+}
+.gpImage {
+    width: 75%;
 }
 .ecycleBin {
     display: flex;
@@ -1271,36 +1277,36 @@ a {
     padding-top: 102px;
 }
 .ecLeft {
-    width: 684px;
-    height: 685px;
+    display: flex;
+    align-items: center;
+    width: 416px;
+    height: 468px;
     flex-shrink: 0;
-    border-radius: 64px 0px 0px 0px;
+    border-radius: 24px 24px 0px 0px;
     background: #4e7d77;
 }
 .ecCase {
     display: flex;
-    width: 408px;
+    width: auto;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    left: 138px;
-    top: 228px;
+    gap: 16px;
+    margin-left: 16px;
 }
 .eccaseTitle {
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin:0;
 }
 .ecInfo {
-    width: 408px;
+    width: auto;
     color: #EBEBEB;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1314,7 +1320,7 @@ a {
     border-radius: 24px;
     color: #4e7d77;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1332,7 +1338,7 @@ a {
     border-radius: 24px;
     color: #4e7d77;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1344,46 +1350,49 @@ a {
 }
 .ecRight {
     display: flex;
-    width: 684px;
-    height: 685px;
+    width: 416px;
+    height: 468px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 0px 0px 64px 0px;
+    border-radius: 0px 0px 24px 24px;
     background: #cde1c5;
 }
+.ecImage {
+    width: 90%;
+}
 .bounceLeft {
-    width: 684px;
-    height: 685px;
+    display: flex;
+    align-items: center;
+    width: 416px;
+    height: 468px;
     flex-shrink: 0;
-    border-radius: 64px 0px 0px 0px;
+    border-radius: 24px 24px 0px 0px;
     background: #004cbd;
 }
 .bounceCase {
     display: flex;
-    width: 408px;
+    width: auto;
     flex-direction: column;
     align-items: flex-start;
-    gap: 24px;
-    position: relative;
-    left: 138px;
-    top: 228px;
+    gap: 18px;
+    margin-left: 16px;
 }
 .bouncecaseTitle {
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 40px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin:0;
 }
 .bounceInfo {
-    width: 408px;
+    width: auto;
     color: #EBEBEB;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1394,10 +1403,10 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 24px;
+    border-radius: 18px;
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1412,10 +1421,10 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 24px;
+    border-radius: 18px;
     color: #ffffff;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1427,13 +1436,13 @@ a {
 }
 .bounceRight {
     display: flex;
-    width: 684px;
-    height: 685px;
+    width: 416px;
+    height: 532px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 0px 0px 64px 0px;
+    border-radius: 0px 0px 24px 24px;
     background: #1f9de2;
 }
 .bImage1 {
@@ -1442,15 +1451,16 @@ a {
     position: relative;
     display: flex;
     margin: auto;
+    padding-top: 8px;
 }
 p {
     display: flex;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     color:#7A7A7A;
-    padding-left: 96px;
-    padding-right: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .skillsSection {
     display: flex;
@@ -1469,7 +1479,7 @@ p {
     flex-wrap: wrap;
 }
 .skillsPara {
-    padding-bottom: 40px;
+    padding-bottom: 16px;
 }
 .progBar {
     margin: 14px;
@@ -1483,12 +1493,12 @@ p {
 .progress-bar {
     text-indent: 20%;
     background-color:#BCD2EB;
-    font-size: large;
+    font-size:16px;
     color: #7A7A7A !important;
     font-weight: bold;
 }
 .badgesPara {
-    padding-bottom: 20px;
+    padding-bottom: 8px;
     padding-top: 40px;
 }
 .bling {
@@ -1517,10 +1527,13 @@ p {
     align-items: flex-start;
     gap: 24px;
 }
+.arrow {
+    height: 198px;
+}
 h5 {
     color: #6F869E;
     font-family: Tahoma;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1529,27 +1542,25 @@ h5 {
 .princState {
     color: #7a7a7a;
     font-family: Tahoma;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .footer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 27px;
+    flex-direction: column;
+    align-content: center;
+    gap: 16px;
     flex-wrap: wrap;
-    padding-top: 102px;
+    padding-top: 32px;
 }
 .rectangleF {
     width: fill;
     height: 4px;
     background: #BCD2EB;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    margin-top: 64px;
+    margin-top: 32px;
 }
 
 * {box-sizing:border-box}
@@ -1588,7 +1599,7 @@ h5 {
 }
 .text {
     color: #f2f2f2;
-    font-size: 24px;
+    font-size: 18px;
     padding: 16px 12px;
     width: 90%;
     text-align: center;
