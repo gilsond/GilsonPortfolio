@@ -732,7 +732,7 @@ a {
         display: flex;
         flex-direction: row;
         width: 85%;
-        height: 1032px;
+        height: 812px;
         background-image: url(Structure/gpslide_3_background.png);
         margin-left: auto;
         margin-right: auto;
@@ -746,7 +746,7 @@ a {
         /* margin-bottom: 48px; */
         margin-left: 96px;
         margin-right: 96px;
-        width: 28%;
+        width: 24%;
     }
     .slideImgB {
         display: flex;
