@@ -21,7 +21,7 @@ body {
 .myName {
     display: flex;
     flex-direction: row;
-    color: #6F869E;
+    color: #38516d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -35,7 +35,7 @@ body {
 .headerContent {
     display: flex;
     flex-direction: row;
-    color: #6F869E;
+    color: #38516d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -66,7 +66,7 @@ body {
 h1 {
     display: flex;
     flex-direction: row;
-    color: #6f869e;
+    color: #38516d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -80,7 +80,7 @@ h1 {
 h2 {
     display: flex;
     flex-direction: row;
-    color: #6f869e;
+    color: #38516d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
@@ -200,9 +200,9 @@ h2 {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #ffffff;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #6F869E;
+        background-color: #38516d;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .pageLink:hover {
@@ -214,16 +214,15 @@ h2 {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #6F869E;
-        border-style: solid;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #ffffff;
+        background-color: #148787;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);   
     }
 .rectangle {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #2ddec0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
 }
@@ -240,7 +239,7 @@ h2 {
 .rectangleF {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #38516d;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 64px;
 }
@@ -248,7 +247,7 @@ li {
     list-style: none;
 }
 a {
-    color: #6F869E;
+    color: #38516d;
     text-decoration: none;
 }
 .nav-bar {
@@ -282,7 +281,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #6F869E;
+    background-color: #38516d;
 }
 .bar:nth-child(2) {
     background-color: #2ddec0;
@@ -326,7 +325,7 @@ a {
     justify-content: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #6F869E;
+    background-color: #38516d;
     width: 96px;
     height: 96px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -354,7 +353,7 @@ a {
     cursor: pointer;
 }
 .rBtxt {
-    color: #6F869E;
+    color: #38516d;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -386,7 +385,7 @@ a {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -400,7 +399,7 @@ a {
     .headerContent {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -432,7 +431,7 @@ a {
     h1 {
         display: flex;
         flex-direction: row;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -446,7 +445,7 @@ a {
     h2 {
         display: flex;
         flex-direction: row;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
@@ -568,9 +567,9 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #ffffff;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #6F869E;
+        background-color: #38516d;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .pageLink:hover {
@@ -582,16 +581,15 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #6F869E;
-        border-style: solid;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #ffffff;
+        background-color: #148787;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);   
     }
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -608,7 +606,7 @@ a {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516d;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 64px;
     }
@@ -616,7 +614,7 @@ a {
         list-style: none;
     }
     a {
-        color: #6F869E;
+        color: #38516d;
         text-decoration: none;
     }
     .nav-bar {
@@ -650,7 +648,7 @@ a {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516d;
     }
     .bar:nth-child(2) {
         background-color: #2ddec0;
@@ -694,7 +692,7 @@ a {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516d;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -722,7 +720,7 @@ a {
         cursor: pointer;
     }
     .rBtxt {
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -754,7 +752,7 @@ a {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -768,7 +766,7 @@ a {
     .headerContent {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -790,7 +788,7 @@ a {
         list-style: none;
     }
     a {
-        color: #6F869E;
+        color: #38516d;
         text-decoration: none;
     }
     .nav-bar {
@@ -823,7 +821,7 @@ a {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516d;
     }
     .bar:nth-child(2) {
         background-color: #2ddec0;
@@ -876,7 +874,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -891,7 +889,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
@@ -1019,9 +1017,9 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #ffffff;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #6F869E;
+        background-color: #38516d;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .pageLink:hover {
@@ -1033,16 +1031,15 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #6F869E;
-        border-style: solid;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #ffffff;
+        background-color: #148787;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);   
     }
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -1057,7 +1054,7 @@ a {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516d;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 32px;
     }
@@ -1068,7 +1065,7 @@ a {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516d;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1096,7 +1093,7 @@ a {
         cursor: pointer;
     }
     .rBtxt {
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1128,7 +1125,7 @@ a {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1142,7 +1139,7 @@ a {
     .headerContent {
         display: none;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1163,7 +1160,7 @@ a {
         list-style: none;
     }
     a {
-        color: #6F869E;
+        color: #38516d;
         text-decoration: none;
     }
     .nav-bar {
@@ -1196,7 +1193,7 @@ a {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516d;
     }
     .bar:nth-child(2) {
         background-color: #2ddec0;
@@ -1249,7 +1246,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1264,7 +1261,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 28px;
         font-style: normal;
@@ -1391,9 +1388,9 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #ffffff;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #6F869E;
+        background-color: #38516d;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .pageLink:hover {
@@ -1405,16 +1402,15 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #6F869E;
-        border-style: solid;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #ffffff;
+        background-color: #148787;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);   
     }
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -1429,7 +1425,7 @@ a {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516d;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 32px;
     }
@@ -1440,7 +1436,7 @@ a {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516d;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1468,7 +1464,7 @@ a {
         cursor: pointer;
     }
     .rBtxt {
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1500,7 +1496,7 @@ a {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1514,7 +1510,7 @@ a {
     .headerContent {
         display: none;
         flex-direction: row;
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1535,7 +1531,7 @@ a {
         list-style: none;
     }
     a {
-        color: #6F869E;
+        color: #38516d;
         text-decoration: none;
     }
     .nav-bar {
@@ -1568,7 +1564,7 @@ a {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516d;
     }
     .bar:nth-child(2) {
         background-color: #2ddec0;
@@ -1620,7 +1616,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
@@ -1635,7 +1631,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        color: #6f869e;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 28px;
         font-style: normal;
@@ -1764,9 +1760,9 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #ffffff;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #6F869E;
+        background-color: #38516d;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .pageLink:hover {
@@ -1778,16 +1774,15 @@ a {
         height: 40px;
         margin: auto;
         font-size: 24px;
-        color: #6F869E;
-        border-style: solid;
+        color: #2ddec0;
         border-radius: 16px;
-        background-color: #ffffff;
+        background-color: #148787;
         box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     }
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -1802,7 +1797,7 @@ a {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516d;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 32px;
     }
@@ -1813,7 +1808,7 @@ a {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516d;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1841,7 +1836,7 @@ a {
         cursor: pointer;
     }
     .rBtxt {
-        color: #6F869E;
+        color: #38516d;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
