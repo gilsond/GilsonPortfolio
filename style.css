@@ -1,15 +1,12 @@
 /* Extra Large screens 1201px and more */
 @media only screen and (min-width: 1201px) and (max-width:2500px) {
 head {
-    font-family:Tahoma, Helvetica, sans-serif !important;
+    font-family:Arial, Helvetica, sans-serif !important;
 }
 body {
-    font-family: Tahoma, Helvetica, sans-serif !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     background-color: #ffffff;
     background-image: url(Structure/Background.png) ;
-}
-a {
-    text-decoration: none;
 }
 .header {
     position: sticky;
@@ -20,8 +17,8 @@ a {
 .headerContent {
     display: flex;
     flex-direction: row;
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px !important;
     font-style: normal;
     font-weight: 300;
@@ -33,7 +30,7 @@ a {
 .dgLogo {
     margin-left: auto;
     margin-right: auto;
-    padding-right: 180px;
+    padding-right: 201.72px;
     margin-top: 16px;
 }
 img, svg {
@@ -42,8 +39,8 @@ img, svg {
 .myName {
     display: flex;
     flex-direction: row;
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 300;
@@ -57,7 +54,7 @@ li {
     list-style: none;
 }
 a {
-    color: #6F869E !important;
+    color: #38516d !important;
     text-decoration: none !important;
     font-size: 24px !important;
 }
@@ -69,12 +66,6 @@ a {
     margin-left: 96px;
     margin-right: 96px;
 }
-/* .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-} */
 .nav-branding {
     font-size: 2rem;
 }
@@ -83,8 +74,9 @@ a {
 }
 .nav-item :hover {
     font-size: 24px;
-    color: #A1C0DE !important;
+    color: #38516D !important;
     text-decoration: underline !important;
+    text-decoration-color: #2ddec0 !important;
 }
 .hamburger {
     display:block;
@@ -98,16 +90,21 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #6F869E;
+    background-color: #38516D;
+}
+.bar:nth-child(2) {
+    background-color: #2ddec0;
 }
 .hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #2ddec0;
 }
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #2ddec0;
 }
 .nav-menu {
     position: fixed;
@@ -115,19 +112,17 @@ a {
     top: 96px;
     gap: 0 !important;
     flex-direction: column;
-    background-color: #ffffff !important;
+    background-color: #ffffffee !important;
     width: 216px;
     text-align: center;
     transition: 0.3s;
-    border-color: #fafafa;
-    border-style: solid;
-    border-width: 3px;
+    border-color: none;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
     padding:0 !important;
 }
 .nav-item {
     font-size: 24px;
-    font-family: tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 29px;
 }
 .nav-menu.active {
@@ -142,78 +137,33 @@ a {
     align-items: flex-start;
     gap: 32px;
     margin-top: 68px;
+    background-color: #ffffffee;
 }
 .menulabel {
     display: flex;
-    color: #6F869E;
+    color: #38516d;
     justify-content: center;
     align-items: center;
     width: auto;
     height: 51px;
     min-width: 149px;
     font-size: 32px;
-    transition: .5s;
+    transition: .01s;
 
 }
 .menulabel:hover {
     display: flex;
-    color: #96b6d6;
+    color: #38516d;
     justify-content: center;
     align-items: center;
     text-decoration: underline;
+    text-decoration-color:#2ddec0 ;
     width: auto;
     height: 51px;
     min-width: 149px;
     font-size: 32px;
     transition: .5s;
     cursor: pointer;
-}
-.contactme {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 96px;
-    margin-top: 28;
-}
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 55px;
-    height: 55px;
-    width: 246px;
-    background-color: #6f869e;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 300;
-    border-radius: 24px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .5s;
-    border: none;
-    outline: none;
-    margin-right: 96px;
-    margin-left:auto;
-    cursor: pointer;
-}
-.button:hover {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 55px;
-    height: 55px;
-    width: 246px;
-    background-color: #96b6d6;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 300;
-    text-decoration: underline;
-    border-radius: 24px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .5s;
-    border: none;
-    outline: none;
-    cursor: pointer;  
 }
 .hero {
     display: flex;
@@ -232,6 +182,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 25px;
+    background-color: #ffffffee;
 }
 .h-structure {
     display: flex;
@@ -247,14 +198,14 @@ a {
     display: flex;
     width: auto;
     align-items: center;
-    color: #7a7a7a;
+    color: #38516D;
 }
 .resumeTop {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    color: #7A7A7A;
+    color: #38516D;
 }
 .rButton {
     display: flex;
@@ -263,7 +214,7 @@ a {
     justify-content: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #6F869E;
+    background-color: #38516D;
     width: 96px;
     height: 96px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -280,7 +231,7 @@ a {
     justify-content: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #7A7A7A;
+    background-color: #6D9DD4;
     width: 96px;
     height: 96px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -289,8 +240,8 @@ a {
     outline: none;
 }
 .rbtxt {
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -306,8 +257,8 @@ a {
 }
 .whoMe {
     flex: 1 0 0;
-    color: #7A7A7A;
-    font-family: Tahoma;
+    color: #38516d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -315,8 +266,8 @@ a {
 }
 .yeahMe {
     align-self: stretch;
-    color: #7A7A7A;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -328,7 +279,7 @@ a {
 .rectangle {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #2ddec0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
 }
@@ -340,15 +291,16 @@ a {
     margin-bottom: 20px;
 }
 .sections {
-    color: #6F869E;
+    color: #38516D;
     text-align: center;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-bottom: 40px;
     padding-top: 10px;
+    background-color: #ffffffee;
 }
 .myWork {
     padding-bottom: 32px;
@@ -360,7 +312,6 @@ a {
     align-content: flex-start;
     align-self: stretch;
     flex-wrap: wrap;
-
 }
 .gpLeft {
     width: 684px;
@@ -381,7 +332,7 @@ a {
 }
 .gpcaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -391,7 +342,7 @@ a {
 .gpInfo {
     width: 408px;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -405,7 +356,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -423,7 +374,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -473,7 +424,7 @@ a {
 }
 .eccaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -483,7 +434,7 @@ a {
 .ecInfo {
     width: 408px;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -497,7 +448,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #4e7d77;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -515,7 +466,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #4e7d77;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -556,7 +507,7 @@ a {
 }
 .bouncecaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -566,7 +517,7 @@ a {
 .bounceInfo {
     width: 408px;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -580,7 +531,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -598,7 +549,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -632,9 +583,10 @@ p {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    color:#7A7A7A;
+    color:#38516D;
     padding-left: 96px;
     padding-right: 96px;
+    background-color: #ffffffee;
 }
 .skillsSection {
     display: flex;
@@ -665,9 +617,9 @@ p {
 }
 .progress-bar {
     text-indent: 20%;
-    background-color:#BCD2EB;
+    background-color:#2ddec0;
     font-size: large;
-    color: #7A7A7A !important;
+    color: #38516D !important;
     font-weight: bold;
 }
 .badgesPara {
@@ -699,19 +651,21 @@ p {
     width: 380px;
     align-items: flex-start;
     gap: 24px;
+    background-color: #ffffffee;
 }
 h5 {
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline; 
+    text-decoration-line: underline;
+    text-decoration-color: #2ddec0; 
 }
 .princState {
-    color: #7a7a7a;
-    font-family: Tahoma;
+    color: #2d2d2b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -730,7 +684,7 @@ h5 {
 .rectangleF {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #38516D;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 64px;
 }
@@ -814,15 +768,12 @@ h5 {
 /* desktops, large screens 1025px-1200px */
 @media only screen and (min-width:1025px) and (max-width:1200px) {
     head {
-        font-family:Tahoma, Helvetica, sans-serif !important;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     }
     body {
-        font-family: Tahoma, Helvetica, sans-serif !important;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
         background-color: #ffffff;
         background-image: url(Structure/Background.png) ;
-    }
-    a {
-        text-decoration: none;
     }
     .header {
         position: sticky;
@@ -833,8 +784,8 @@ h5 {
     .headerContent {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px !important;
         font-style: normal;
         font-weight: 300;
@@ -846,7 +797,7 @@ h5 {
     .dgLogo {
         margin-left: auto;
         margin-right: auto;
-        padding-right: 180px;
+        padding-right: 201.72px;
         margin-top: 16px;
     }
     img, svg {
@@ -855,8 +806,8 @@ h5 {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -870,7 +821,7 @@ h5 {
         list-style: none;
     }
     a {
-        color: #6F869E !important;
+        color: #38516D !important;
         text-decoration: none !important;
         font-size: 24px !important;
     }
@@ -882,12 +833,6 @@ h5 {
         margin-left: 96px;
         margin-right: 96px;
     }
-    /* .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-    } */
     .nav-branding {
         font-size: 2rem;
     }
@@ -896,8 +841,9 @@ h5 {
     }
     .nav-item :hover {
         font-size: 24px;
-        color: #A1C0DE !important;
+        color: #38516D !important;
         text-decoration: underline !important;
+        text-decoration-color: #2ddec0 !important;
     }
     .hamburger {
         display:block;
@@ -911,16 +857,21 @@ h5 {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516D;
+    }
+    .bar:nth-child(2) {
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+        background-color: #2ddec0;
     }
     .nav-menu {
         position: fixed;
@@ -940,7 +891,7 @@ h5 {
     }
     .nav-item {
         font-size: 24px;
-        font-family: tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         height: 29px;
     }
     .nav-menu.active {
@@ -955,10 +906,11 @@ h5 {
         align-items: flex-start;
         gap: 32px;
         margin-top: 68px;
+        background-color: #ffffffee;
     }
     .menulabel {
         display: flex;
-        color: #6F869E;
+        color: #38516D;
         justify-content: center;
         align-items: center;
         width: auto;
@@ -970,7 +922,7 @@ h5 {
     }
     .menulabel:hover {
         display: flex;
-        color: #96b6d6;
+        color: #2ddec0;
         justify-content: center;
         align-items: center;
         text-decoration: underline;
@@ -980,53 +932,6 @@ h5 {
         font-size: 32px;
         transition: .5s;
         cursor: pointer;
-    }
-    .contactme {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin-left: auto;
-        margin-right: 96px;
-        margin-top: 28;
-    }
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #6f869e;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        margin-right: 96px;
-        margin-left:auto;
-        cursor: pointer;
-    }
-    .button:hover {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #96b6d6;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        text-decoration: underline;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        cursor: pointer;  
     }
     .hero {
         display: flex;
@@ -1045,6 +950,7 @@ h5 {
         flex-direction: column;
         align-items: center;
         gap: 25px;
+        background-color: #ffffffee;
     }
     .h-structure {
         display: flex;
@@ -1060,14 +966,14 @@ h5 {
         display: flex;
         width: auto;
         align-items: center;
-        color: #7a7a7a;
+        color: #38516D;
     }
     .resumeTop {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 6px;
-        color: #7A7A7A;
+        color: #38516D;
     }
     .rButton {
         display: flex;
@@ -1076,7 +982,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1093,7 +999,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #7A7A7A;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1102,8 +1008,8 @@ h5 {
         outline: none;
     }
     .rbtxt {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -1119,8 +1025,8 @@ h5 {
     }
     .whoMe {
         flex: 1 0 0;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
@@ -1128,8 +1034,8 @@ h5 {
     }
     .yeahMe {
         align-self: stretch;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1141,7 +1047,7 @@ h5 {
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -1153,15 +1059,16 @@ h5 {
         margin-bottom: 20px;
     }
     .sections {
-        color: #6F869E;
+        color: #38516D;
         text-align: center;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         padding-bottom: 40px;
         padding-top: 10px;
+        background-color: #ffffffee;
     }
     .myWork {
         padding-bottom: 32px;
@@ -1194,7 +1101,7 @@ h5 {
     }
     .gpcaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -1204,7 +1111,7 @@ h5 {
     .gpInfo {
         width: 408px;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1218,7 +1125,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1236,7 +1143,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1286,7 +1193,7 @@ h5 {
     }
     .eccaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -1296,7 +1203,7 @@ h5 {
     .ecInfo {
         width: 408px;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1310,7 +1217,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1328,7 +1235,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1369,7 +1276,7 @@ h5 {
     }
     .bouncecaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 400;
@@ -1379,7 +1286,7 @@ h5 {
     .bounceInfo {
         width: 408px;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1393,7 +1300,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1411,7 +1318,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1445,9 +1352,10 @@ h5 {
         font-size: 24px;
         font-weight: 400;
         text-align: center;
-        color:#7A7A7A;
+        color:#38516D;
         padding-left: 96px;
         padding-right: 96px;
+        background-color: #ffffffee;
     }
     .skillsSection {
         display: flex;
@@ -1478,9 +1386,9 @@ h5 {
     }
     .progress-bar {
         text-indent: 20%;
-        background-color:#BCD2EB;
+        background-color:#2ddec0;
         font-size: large;
-        color: #7A7A7A !important;
+        color: #38516D !important;
         font-weight: bold;
     }
     .badgesPara {
@@ -1512,19 +1420,21 @@ h5 {
         width: 380px;
         align-items: flex-start;
         gap: 24px;
+        background-color: #ffffffee;
     }
     h5 {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-decoration-line: underline; 
+        text-decoration-line: underline;
+        text-decoration-color: #2ddec0; 
     }
     .princState {
-        color: #7a7a7a;
-        font-family: Tahoma;
+        color: #2b2b2b;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
@@ -1543,7 +1453,7 @@ h5 {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516D;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 64px;
     }
@@ -1627,15 +1537,12 @@ h5 {
 /* samll screens, laptops 769px-1024px */
 @media only screen and (min-width:769px) and (max-width:1024px) {
     head {
-        font-family:Tahoma, Helvetica, sans-serif !important;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     }
     body {
-        font-family: Tahoma, Helvetica, sans-serif !important;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
         background-color: #ffffff;
         background-image: url(Structure/Background.png) ;
-    }
-    a {
-        text-decoration: none;
     }
     .header {
         position: sticky;
@@ -1646,8 +1553,8 @@ h5 {
     .headerContent {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px !important;
         font-style: normal;
         font-weight: 300;
@@ -1659,7 +1566,7 @@ h5 {
     }
     .dgLogo {
         margin-right: auto;
-        padding-right: 180px;
+        padding-right: 201.72px;
         margin-top: 16px;
     }
     img, svg {
@@ -1668,8 +1575,8 @@ h5 {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -1683,7 +1590,7 @@ h5 {
         list-style: none;
     }
     a {
-        color: #6F869E !important;
+        color: #38516D !important;
         text-decoration: none !important;
         font-size: 20px !important;
     }
@@ -1693,12 +1600,6 @@ h5 {
         justify-content: space-between;
         align-items: center;
     }
-    /* .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 60px;
-    } */
     .nav-branding {
         font-size: 2rem;
     }
@@ -1707,8 +1608,9 @@ h5 {
     }
     .nav-item :hover {
         font-size: 24px;
-        color: #A1C0DE !important;
+        color: #38516D !important;
         text-decoration: underline !important;
+        text-decoration-color: #2ddec0 !important;
     }
     .hamburger {
         display:block;
@@ -1723,16 +1625,21 @@ h5 {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516D;
+    }
+    .bar:nth-child(2) {
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+        background-color: #2ddec0;
     }
     .nav-menu {
         position: fixed;
@@ -1752,7 +1659,7 @@ h5 {
     }
     .nav-item {
         font-size: 24px;
-        font-family: tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         height: 29px;
     }
     .nav-menu.active {
@@ -1766,21 +1673,21 @@ h5 {
         width: auto;
         align-items: center;
         gap: 48px;
+        background-color: #ffffffee;
     }
     .menulabel {
         display: flex;
-        color: #6F869E;
+        color: #38516D;
         justify-content: center;
         align-items: center;
         width: auto;
         height: auto;
         font-size: 32px;
-        transition: .5s;
-    
+        transition: .5s;  
     }
     .menulabel:hover {
         display: flex;
-        color: #96b6d6;
+        color: #2ddec0;
         justify-content: center;
         align-items: center;
         text-decoration: underline;
@@ -1789,53 +1696,6 @@ h5 {
         font-size: 32px;
         transition: .5s;
         cursor: pointer;
-    }
-    /* .contactme {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin-left: auto;
-        margin-right: 96px;
-        margin-top: 28;
-    } */
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #6f869e;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        margin-right: 96px;
-        margin-left:auto;
-        cursor: pointer;
-    }
-    .button:hover {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #96b6d6;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        text-decoration: underline;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        cursor: pointer;  
     }
     .hero {
         display: flex;
@@ -1856,6 +1716,7 @@ h5 {
         flex-direction: column;
         align-items: center;
         gap: 24px;
+        background-color: #ffffffee;
     }
     .h-structure {
         display: flex;
@@ -1871,14 +1732,14 @@ h5 {
         display: flex;
         width: auto;
         align-items: center;
-        color: #7a7a7a;
+        color: #38516D;
     }
     .resumeTop {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 6px;
-        color: #7A7A7A;
+        color: #38516D;
     }
     .rButton {
         display: flex;
@@ -1887,7 +1748,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1904,7 +1765,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #7A7A7A;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -1913,8 +1774,8 @@ h5 {
         outline: none;
     }
     .rbtxt {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -1934,8 +1795,8 @@ h5 {
     .whoMe {
         display: flex;
         align-items: center;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
@@ -1943,8 +1804,8 @@ h5 {
     }
     .yeahMe {
         align-self: stretch;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -1956,7 +1817,7 @@ h5 {
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -1968,15 +1829,16 @@ h5 {
         margin-bottom: 20px;
     }
     .sections {
-        color: #6F869E;
+        color: #38516D;
         text-align: center;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         padding-bottom: 40px;
         padding-top: 10px;
+        background-color: #ffffffee;
     }
     .myWork {
         padding-bottom: 32px;
@@ -2007,7 +1869,7 @@ h5 {
     }
     .gpcaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -2017,7 +1879,7 @@ h5 {
     .gpInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2031,7 +1893,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2049,7 +1911,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2100,7 +1962,7 @@ h5 {
     }
     .eccaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -2110,7 +1972,7 @@ h5 {
     .ecInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2124,7 +1986,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2142,7 +2004,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2185,7 +2047,7 @@ h5 {
     }
     .bouncecaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -2195,7 +2057,7 @@ h5 {
     .bounceInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2209,7 +2071,7 @@ h5 {
         gap: 10px;
         border-radius: 18px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2227,7 +2089,7 @@ h5 {
         gap: 10px;
         border-radius: 18px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2262,9 +2124,10 @@ h5 {
         font-size: 20px;
         font-weight: 400;
         text-align: center;
-        color:#7A7A7A;
+        color:#38516D;
         padding-left: 16px;
         padding-right: 16px;
+        background-color: #ffffffee;
     }
     .skillsSection {
         display: flex;
@@ -2295,9 +2158,9 @@ h5 {
     }
     .progress-bar {
         text-indent: 20%;
-        background-color:#BCD2EB;
+        background-color:#2ddec0;
         font-size: 16px;
-        color: #7A7A7A !important;
+        color: #38516D !important;
         font-weight: bold;
     }
     .badgesPara {
@@ -2329,22 +2192,24 @@ h5 {
         width: 380px;
         align-items: flex-start;
         gap: 24px;
+        background-color: #ffffffee;
     }
     .arrow {
         height: 198px;
     }
     h5 {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-decoration-line: underline; 
+        text-decoration-line: underline;
+        text-decoration-color: #2ddec0; 
     }
     .princState {
-        color: #7a7a7a;
-        font-family: Tahoma;
+        color: #2b2b2b;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -2361,7 +2226,7 @@ h5 {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516D;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 32px;
     }
@@ -2445,15 +2310,12 @@ h5 {
 /* tablets 481px-768px */
 @media only screen and (min-width:481px) and (max-width:768px) {
     head {
-        font-family:Tahoma, Helvetica, sans-serif !important;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     }
     body {
-        font-family: Tahoma, Helvetica, sans-serif !important;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
         background-color: #ffffff;
         background-image: url(Structure/Background.png) ;
-    }
-    a {
-        text-decoration: none;
     }
     .header {
         position: sticky;
@@ -2464,8 +2326,8 @@ h5 {
     .headerContent {
         display: none;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px !important;
         font-style: normal;
         font-weight: 300;
@@ -2477,7 +2339,7 @@ h5 {
     .dgLogo {
         margin-left: 32px;
         margin-right: auto;
-        /* padding-right: 180px; */
+        /* padding-right: 201.72px; */
         margin-top: 16px;
     }
     img, svg {
@@ -2486,8 +2348,8 @@ h5 {
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -2501,7 +2363,7 @@ h5 {
         list-style: none;
     }
     a {
-        color: #6F869E !important;
+        color: #38516D !important;
         text-decoration: none !important;
         font-size: 24px !important;
     }
@@ -2525,8 +2387,9 @@ h5 {
     }
     .nav-item :hover {
         font-size: 24px;
-        color: #A1C0DE !important;
+        color: #38516d !important;
         text-decoration: underline !important;
+        text-decoration-color: #2ddec0 !important;
     }
     .hamburger {
         display:block;
@@ -2541,16 +2404,21 @@ h5 {
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516D;
+    }
+    .bar:nth-child(2) {
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+        background-color: #2ddec0;
     }
     .nav-menu {
         position: fixed;
@@ -2570,7 +2438,7 @@ h5 {
     }
     .nav-item {
         font-size: 24px;
-        font-family: tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         height: 29px;
     }
     .nav-menu.active {
@@ -2584,10 +2452,11 @@ h5 {
         width: auto;
         align-items: center;
         gap: 32px;
+        background-color: #ffffffee;
     }
     .menulabel {
         display: flex;
-        color: #6F869E;
+        color: #38516D;
         justify-content: center;
         align-items: center;
         width: auto;
@@ -2598,7 +2467,7 @@ h5 {
     }
     .menulabel:hover {
         display: flex;
-        color: #96b6d6;
+        color: #2ddec0;
         justify-content: center;
         align-items: center;
         text-decoration: underline;
@@ -2607,53 +2476,6 @@ h5 {
         font-size: 24px;
         transition: .5s;
         cursor: pointer;
-    }
-    /* .contactme {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin-left: auto;
-        margin-right: 96px;
-        margin-top: 28;
-    } */
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #6f869e;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        margin-right: 96px;
-        margin-left:auto;
-        cursor: pointer;
-    }
-    .button:hover {
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 55px;
-        height: 55px;
-        width: 246px;
-        background-color: #96b6d6;
-        color: #ffffff;
-        font-size: 32px;
-        font-weight: 300;
-        text-decoration: underline;
-        border-radius: 24px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition: .5s;
-        border: none;
-        outline: none;
-        cursor: pointer;  
     }
     .hero {
         display: flex;
@@ -2673,6 +2495,7 @@ h5 {
         flex-direction: column;
         align-items: center;
         gap: 24px;
+        background-color: #ffffffee;
     }
     .h-structure {
         display: flex;
@@ -2688,14 +2511,14 @@ h5 {
         display: flex;
         width: auto;
         align-items: center;
-        color: #7a7a7a;
+        color: #38516D;
     }
     .resumeTop {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 6px;
-        color: #7A7A7A;
+        color: #38516D;
     }
     .rButton {
         display: flex;
@@ -2704,7 +2527,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -2721,7 +2544,7 @@ h5 {
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #7A7A7A;
+        background-color: #38516D;
         width: 96px;
         height: 96px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -2730,8 +2553,8 @@ h5 {
         outline: none;
     }
     .rbtxt {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2751,8 +2574,8 @@ h5 {
     .whoMe {
         display: flex;
         align-items: center;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
@@ -2760,8 +2583,8 @@ h5 {
     }
     .yeahMe {
         align-self: stretch;
-        color: #7A7A7A;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -2773,7 +2596,7 @@ h5 {
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -2785,15 +2608,16 @@ h5 {
         margin-bottom: 20px;
     }
     .sections {
-        color: #6F869E;
+        color: #38516D;
         text-align: center;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         padding-bottom: 40px;
         padding-top: 10px;
+        background-color: #ffffffee;
     }
     .myWork {
         padding-bottom: 32px;
@@ -2824,7 +2648,7 @@ h5 {
     }
     .gpcaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -2834,7 +2658,7 @@ h5 {
     .gpInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2848,7 +2672,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2866,7 +2690,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2917,7 +2741,7 @@ h5 {
     }
     .eccaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -2927,7 +2751,7 @@ h5 {
     .ecInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2941,7 +2765,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -2959,7 +2783,7 @@ h5 {
         gap: 10px;
         border-radius: 24px;
         color: #4e7d77;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -3002,7 +2826,7 @@ h5 {
     }
     .bouncecaseTitle {
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 36px;
         font-style: normal;
         font-weight: 400;
@@ -3012,7 +2836,7 @@ h5 {
     .bounceInfo {
         width: auto;
         color: #EBEBEB;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -3026,7 +2850,7 @@ h5 {
         gap: 10px;
         border-radius: 18px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -3044,7 +2868,7 @@ h5 {
         gap: 10px;
         border-radius: 18px;
         color: #ffffff;
-        font-family: Tahoma;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -3079,9 +2903,10 @@ h5 {
         font-size: 16px;
         font-weight: 400;
         text-align: center;
-        color:#7A7A7A;
+        color:#38516D;
         padding-left: 16px;
         padding-right: 16px;
+        background-color: #ffffffee;
     }
     .skillsSection {
         display: flex;
@@ -3112,9 +2937,9 @@ h5 {
     }
     .progress-bar {
         text-indent: 20%;
-        background-color:#BCD2EB;
+        background-color:#2ddec0;
         font-size: 16px;
-        color: #7A7A7A !important;
+        color: #38516D !important;
         font-weight: bold;
     }
     .badgesPara {
@@ -3146,22 +2971,24 @@ h5 {
         width: 380px;
         align-items: flex-start;
         gap: 24px;
+        background-color: #ffffffee;
     }
     .arrow {
         height: 198px;
     }
     h5 {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516D;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-decoration-line: underline; 
+        text-decoration-line: underline;
+        text-decoration-color: #2ddec0; 
     }
     .princState {
-        color: #7a7a7a;
-        font-family: Tahoma;
+        color: #2b2b2b;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -3178,7 +3005,7 @@ h5 {
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516D;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 32px;
     }
@@ -3261,15 +3088,12 @@ h5 {
 /* samllest, mobile 320px-480px */
 @media only screen and (min-width:324px) and (max-width:480px) {
 head {
-    font-family:Tahoma, Helvetica, sans-serif !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
 }
 body {
-    font-family: Tahoma, Helvetica, sans-serif !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
     background-color: #ffffff;
     background-image: url(Structure/Background.png) ;
-}
-a {
-    text-decoration: none;
 }
 .header {
     position: sticky;
@@ -3280,8 +3104,8 @@ a {
 .headerContent {
     display: none;
     flex-direction: row;
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px !important;
     font-style: normal;
     font-weight: 300;
@@ -3293,7 +3117,7 @@ a {
 .dgLogo {
     margin-left: 16px;
     margin-right: auto;
-    /* padding-right: 180px; */
+    /* padding-right: 201.72px; */
     margin-top: 16px;
 }
 img, svg {
@@ -3302,8 +3126,8 @@ img, svg {
 .myName {
     display: flex;
     flex-direction: row;
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 300;
@@ -3317,7 +3141,7 @@ li {
     list-style: none;
 }
 a {
-    color: #6F869E !important;
+    color: #38516D !important;
     text-decoration: none !important;
     font-size: 24px !important;
 }
@@ -3327,12 +3151,6 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-/* .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-} */
 .nav-branding {
     font-size: 2rem;
 }
@@ -3341,8 +3159,9 @@ a {
 }
 .nav-item :hover {
     font-size: 24px;
-    color: #A1C0DE !important;
+    color: #38516D !important;
     text-decoration: underline !important;
+    text-decoration-color: #2ddec0 !important;
 }
 .hamburger {
     display:block;
@@ -3357,16 +3176,21 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #6F869E;
+    background-color: #38516D;
+}
+.bar:nth-child(2) {
+    background-color: #2ddec0;
 }
 .hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
+    background-color: #2ddec0;
 }
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+    background-color: #2ddec0;
 }
 .nav-menu {
     position: fixed;
@@ -3386,7 +3210,7 @@ a {
 }
 .nav-item {
     font-size: 24px;
-    font-family: tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 29px;
 }
 .nav-menu.active {
@@ -3400,10 +3224,11 @@ a {
     width: auto;
     align-items: center;
     gap: 4px;
+    background-color: #ffffffee;
 }
 .menulabel {
     display: flex;
-    color: #6F869E;
+    color: #38516D;
     justify-content: center;
     align-items: center;
     width: auto;
@@ -3414,7 +3239,7 @@ a {
 }
 .menulabel:hover {
     display: flex;
-    color: #96b6d6;
+    color: #2ddec0;
     justify-content: center;
     align-items: center;
     text-decoration: underline;
@@ -3423,53 +3248,6 @@ a {
     font-size: 24px;
     transition: .5s;
     cursor: pointer;
-}
-/* .contactme {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-left: auto;
-    margin-right: 96px;
-    margin-top: 28;
-} */
-.button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 55px;
-    height: 55px;
-    width: 246px;
-    background-color: #6f869e;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 300;
-    border-radius: 24px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .5s;
-    border: none;
-    outline: none;
-    margin-right: 96px;
-    margin-left:auto;
-    cursor: pointer;
-}
-.button:hover {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 55px;
-    height: 55px;
-    width: 246px;
-    background-color: #96b6d6;
-    color: #ffffff;
-    font-size: 32px;
-    font-weight: 300;
-    text-decoration: underline;
-    border-radius: 24px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: .5s;
-    border: none;
-    outline: none;
-    cursor: pointer;  
 }
 .hero {
     display: flex;
@@ -3489,6 +3267,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    background-color: #ffffffee;
 }
 .h-structure {
     display: flex;
@@ -3505,14 +3284,14 @@ a {
     display: flex;
     width: auto;
     align-items: center;
-    color: #7a7a7a;
+    color: #38516D;
 }
 .resumeTop {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    color: #7A7A7A;
+    color: #38516D;
 }
 .rButton {
     display: flex;
@@ -3521,7 +3300,7 @@ a {
     justify-content: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #6F869E;
+    background-color: #38516D;
     width: 96px;
     height: 96px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -3538,7 +3317,7 @@ a {
     justify-content: center;
     gap: 6px;
     color: #ffffff;
-    background-color: #7A7A7A;
+    background-color: #38516D;
     width: 96px;
     height: 96px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -3547,8 +3326,8 @@ a {
     outline: none;
 }
 .rbtxt {
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -3568,8 +3347,8 @@ a {
 .whoMe {
     display: flex;
     align-items: center;
-    color: #7A7A7A;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -3577,8 +3356,8 @@ a {
 }
 .yeahMe {
     align-self: stretch;
-    color: #7A7A7A;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3590,7 +3369,7 @@ a {
 .rectangle {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #2ddec0;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 102px;
 }
@@ -3602,15 +3381,16 @@ a {
     margin-bottom: 20px;
 }
 .sections {
-    color: #6F869E;
+    color: #38516D;
     text-align: center;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     padding-bottom: 40px;
     padding-top: 10px;
+    background-color: #ffffffee;
 }
 .myWork {
     padding-bottom: 32px;
@@ -3642,7 +3422,7 @@ a {
 }
 .gpcaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -3652,7 +3432,7 @@ a {
 .gpInfo {
     width: auto;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3666,7 +3446,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3684,7 +3464,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3736,7 +3516,7 @@ a {
 }
 .eccaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -3746,7 +3526,7 @@ a {
 .ecInfo {
     width: auto;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3760,7 +3540,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #4e7d77;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3778,7 +3558,7 @@ a {
     gap: 10px;
     border-radius: 24px;
     color: #4e7d77;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3821,7 +3601,7 @@ a {
 }
 .bouncecaseTitle {
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -3831,7 +3611,7 @@ a {
 .bounceInfo {
     width: auto;
     color: #EBEBEB;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3845,7 +3625,7 @@ a {
     gap: 10px;
     border-radius: 18px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3863,7 +3643,7 @@ a {
     gap: 10px;
     border-radius: 18px;
     color: #ffffff;
-    font-family: Tahoma;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3898,9 +3678,10 @@ p {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    color:#7A7A7A;
+    color:#38516D;
     padding-left: 16px;
     padding-right: 16px;
+    background-color: #ffffffee;
 }
 .skillsSection {
     display: flex;
@@ -3931,9 +3712,9 @@ p {
 }
 .progress-bar {
     text-indent: 20%;
-    background-color:#BCD2EB;
+    background-color:#2ddec0;
     font-size:16px;
-    color: #7A7A7A !important;
+    color: #38516D !important;
     font-weight: bold;
 }
 .badgesPara {
@@ -3965,22 +3746,24 @@ p {
     width: 380px;
     align-items: flex-start;
     gap: 24px;
+    background-color: #ffffffee;
 }
 .arrow {
     height: 198px;
 }
 h5 {
-    color: #6F869E;
-    font-family: Tahoma;
+    color: #38516D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline; 
+    text-decoration-line: underline;
+    text-decoration-color: #2ddec0; 
 }
 .princState {
-    color: #7a7a7a;
-    font-family: Tahoma;
+    color: #2b2b2b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -3997,7 +3780,7 @@ h5 {
 .rectangleF {
     width: fill;
     height: 4px;
-    background: #BCD2EB;
+    background: #38516D;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-top: 32px;
 }

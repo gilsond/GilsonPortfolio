@@ -3,7 +3,7 @@
     body {
         background-color: #ffffff;
         background-image: url(Structure/Background.png);
-        font-family: tahoma, Helvetica, sans-serif;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     .header {
         position: sticky;
@@ -21,8 +21,8 @@
     .myName {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -35,8 +35,8 @@
     .headerContent {
         display: flex;
         flex-direction: row;
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -49,16 +49,8 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 16px;
-        padding-right: 180px;
+        padding-right: 201.72px;
         padding-bottom: 6px;
-    }
-    .contactme {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        margin-left: auto;
-        margin-right: 96px;
-        margin-top: 28;
     }
     .gpIntro {
         display: flex;
@@ -74,8 +66,8 @@
     h1 {
         display: flex;
         flex-direction: row;
-        color: #6f869e;
-        font-family: Tahoma;
+        color: #38516d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 40px;
         font-style: normal;
         font-weight: 300;
@@ -83,19 +75,21 @@
         margin-left: 0;
         margin-right: auto;
         margin-top: 64px;
+        background-color: #ffffffee;
     }
     h2 {
         display: flex;
         flex-direction: row;
-        color: #6f869e;
-        font-family: Tahoma;
+        color: #38516d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 32px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
         margin-left: 0;
         margin-right: auto;
-        margin-top: 64px; 
+        margin-top: 64px;
+        background-color: #ffffffee; 
     }
     .infoContainer {
         display: flex;
@@ -117,8 +111,9 @@
     }
     .bgPara {
         font-size: 24px;
-        color: #7a7a7a;
+        color: #38516d;
         padding-top: 24px;
+        background-color: #ffffffee;
     }
     .gp-content {
         display: flex;
@@ -187,9 +182,9 @@
     }
     .gpPara {
         font-size: 20px;
-        color: #7a7a7a;
+        color: #38516d;
         padding-top: 24px;
-        background-color: #ffffffbe;
+        background-color: #ffffffee;
     }
     * {
         box-sizing:border-box;
@@ -207,7 +202,7 @@
             font-size: 24px;
             color: #ffffff;
             border-radius: 16px;
-            background-color: #6F869E;
+            background-color: #38516d;
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
         }
         .pageLink:hover {
@@ -219,7 +214,7 @@
             height: 40px;
             margin: auto;
             font-size: 24px;
-            color: #6F869E;
+            color: #38516d;
             border-style: solid;
             border-radius: 16px;
             background-color: #ffffff;
@@ -228,7 +223,7 @@
     .rectangle {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #2ddec0;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 102px;
     }
@@ -245,7 +240,7 @@
     .rectangleF {
         width: fill;
         height: 4px;
-        background: #BCD2EB;
+        background: #38516d;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin-top: 64px;
     }
@@ -253,7 +248,7 @@
         list-style: none;
     }
     a {
-        color: #6F869E;
+        color: #38516d;
         text-decoration: none;
     }
     .nav-bar {
@@ -272,8 +267,9 @@
     }
     .nav-item :hover {
         font-size: 24px;
-        color: #A1C0DE;
+        color: #38516d;
         text-decoration: underline;
+        text-decoration-color: #2ddec0;
     }
     .hamburger {
         display:block;
@@ -286,16 +282,21 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #6F869E;
+        background-color: #38516d;
+    }
+    .bar:nth-child(2) {
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(2) {
         opacity: 0;
     }
     .hamburger.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
+        background-color: #2ddec0;
     }
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+        background-color: #2ddec0;
     }
     .nav-menu {
         position: fixed;
@@ -318,27 +319,6 @@
     .nav-menu.active {
         right: 80px;
     }
-    .resumeNav {
-        margin-right: 96px;
-        margin-left: auto;
-    } 
-    .resumeTop {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 6px;
-        color: #423a66;
-        margin-left: auto;
-    }
-    .resumeTopbar {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 6px;
-        color: #423a66;
-        margin-left: auto;
-        padding-left: 149.79px; 
-    }
     .rButton {
         display: flex;
         flex-direction: column;
@@ -346,7 +326,7 @@
         justify-content: center;
         gap: 6px;
         color: #ffffff;
-        background-color: #6F869E;
+        background-color: #38516d;
         width: 96px;
         height: 96px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -374,8 +354,8 @@
         cursor: pointer;
     }
     .rBtxt {
-        color: #6F869E;
-        font-family: Tahoma;
+        color: #38516d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -388,7 +368,7 @@
         body {
             background-color: #ffffff;
             background-image: url(Structure/Background.png);
-            font-family: tahoma, Helvetica, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .header {
             position: sticky;
@@ -406,8 +386,8 @@
         .myName {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -420,8 +400,8 @@
         .headerContent {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -434,7 +414,7 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 16px;
-            padding-right: 180px;
+            padding-right: 201.72px;
             padding-bottom: 6px;
         }
         .gpIntro {
@@ -452,8 +432,8 @@
         h1 {
             display: flex;
             flex-direction: row;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -461,19 +441,21 @@
             margin-left: 0;
             margin-right: auto;
             margin-top: 64px;
+            background-color: #ffffffee;
         }
         h2 {
             display: flex;
             flex-direction: row;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 32px;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
             margin-left: 0;
             margin-right: auto;
-            margin-top: 64px; 
+            margin-top: 64px;
+            background-color: #ffffffee; 
         }
         .infoContainer {
             display: flex;
@@ -497,8 +479,9 @@
         }
         .bgPara {
             font-size: 24px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
+            background-color: #ffffffee;
         }
         .gp-content {
             display: flex;
@@ -567,9 +550,9 @@
         }
         .gpPara {
             font-size: 20px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
-            background-color: #ffffffbe;
+            background-color: #ffffffee;
         }
         * {
             box-sizing:border-box;
@@ -587,7 +570,7 @@
             font-size: 24px;
             color: #ffffff;
             border-radius: 16px;
-            background-color: #6F869E;
+            background-color: #38516d;
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
         }
         .pageLink:hover {
@@ -599,7 +582,7 @@
             height: 40px;
             margin: auto;
             font-size: 24px;
-            color: #6F869E;
+            color: #38516d;
             border-style: solid;
             border-radius: 16px;
             background-color: #ffffff;
@@ -608,7 +591,7 @@
         .rectangle {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #2ddec0;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 102px;
         }
@@ -625,7 +608,7 @@
         .rectangleF {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #38516d;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 64px;
         }
@@ -633,7 +616,7 @@
             list-style: none;
         }
         a {
-            color: #6F869E;
+            color: #38516d;
             text-decoration: none;
         }
         .nav-bar {
@@ -652,8 +635,9 @@
         }
         .nav-item :hover {
             font-size: 24px;
-            color: #A1C0DE;
+            color: #38516d;
             text-decoration: underline;
+            text-decoration-color: #2ddec0;
         }
         .hamburger {
             display:block;
@@ -666,16 +650,21 @@
             margin: 5px auto;
             -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-            background-color: #6F869E;
+            background-color: #38516d;
+        }
+        .bar:nth-child(2) {
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(2) {
             opacity: 0;
         }
         .hamburger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
+            background-color: #2ddec0;
         }
         .nav-menu {
             position: fixed;
@@ -698,27 +687,6 @@
         .nav-menu.active {
             right: 80px;
         }
-        .resumeNav {
-            margin-right: 96px;
-            margin-left: auto;
-        } 
-        .resumeTop {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-        }
-        .resumeTopbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-            padding-left: 149.79px; 
-        }
         .rButton {
             display: flex;
             flex-direction: column;
@@ -726,7 +694,7 @@
             justify-content: center;
             gap: 6px;
             color: #ffffff;
-            background-color: #6F869E;
+            background-color: #38516d;
             width: 96px;
             height: 96px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -754,8 +722,8 @@
             cursor: pointer;
         }
         .rBtxt {
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
@@ -768,7 +736,7 @@
         body {
             background-color: #ffffff;
             background-image: url(Structure/Background.png);
-            font-family: tahoma, Helvetica, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .header {
             position: sticky;
@@ -786,8 +754,8 @@
         .myName {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -800,8 +768,8 @@
         .headerContent {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -815,14 +783,14 @@
             margin-right: auto;
             margin-left: auto;
             margin-top: 16px;
-            padding-right: 180px;
+            padding-right: 201.72px;
             padding-bottom: 6px;
         }
         li {
             list-style: none;
         }
         a {
-            color: #6F869E;
+            color: #38516d;
             text-decoration: none;
         }
         .nav-bar {
@@ -839,8 +807,9 @@
         }
         .nav-item :hover {
             font-size: 24px;
-            color: #A1C0DE;
+            color: #38516d;
             text-decoration: underline;
+            text-decoration-color: #2ddec0;
         }
         .hamburger {
             display:block;
@@ -854,16 +823,21 @@
             margin: 5px auto;
             -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-            background-color: #6F869E;
+            background-color: #38516d;
+        }
+        .bar:nth-child(2) {
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(2) {
             opacity: 0;
         }
         .hamburger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
+            background-color: #2ddec0;
         }
         .nav-menu {
             position: fixed;
@@ -902,8 +876,8 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -911,20 +885,22 @@
             /* margin-left: 0;
             margin-right: auto; */
             margin-top: 16px;
+            background-color: #ffffffee;
         }
         h2 {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 32px;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
             margin-left: 0;
             margin-right: auto;
-            margin-top: 64px; 
+            margin-top: 64px;
+            background-color: #ffffffee; 
         }
         .infoContainer {
             display: flex;
@@ -946,10 +922,11 @@
         }
         .bgPara {
             font-size: 24px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
             margin-left: 32px;
             margin-right: 32px;
+            background-color: #ffffffee;
         }
         .gp-content {
             display: flex;
@@ -1024,9 +1001,9 @@
         }
         .gpPara {
             font-size: 20px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
-            background-color: #ffffffbe;
+            background-color: #ffffffee;
         }
         * {
             box-sizing:border-box;
@@ -1036,7 +1013,7 @@
         .rectangle {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #2ddec0;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 102px;
         }
@@ -1051,30 +1028,9 @@
         .rectangleF {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #38516d;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 32px;
-        }
-        .resumeNav {
-            margin-right: 96px;
-            margin-left: auto;
-        } 
-        .resumeTop {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-        }
-        .resumeTopbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-            padding-left: 149.79px; 
         }
         .rButton {
             display: flex;
@@ -1083,7 +1039,7 @@
             justify-content: center;
             gap: 6px;
             color: #ffffff;
-            background-color: #6F869E;
+            background-color: #38516d;
             width: 96px;
             height: 96px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1111,8 +1067,8 @@
             cursor: pointer;
         }
         .rBtxt {
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
@@ -1125,7 +1081,7 @@
         body {
             background-color: #ffffff;
             background-image: url(Structure/Background.png);
-            font-family: tahoma, Helvetica, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .header {
             position: sticky;
@@ -1143,8 +1099,8 @@
         .myName {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1157,8 +1113,8 @@
         .headerContent {
             display: none;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1171,14 +1127,14 @@
             margin-left: 32px;
             margin-right: auto;
             margin-top: 16px;
-            /* padding-right: 180px; */
+            /* padding-right: 201.72px; */
             padding-bottom: 6px;
         }
         li {
             list-style: none;
         }
         a {
-            color: #6F869E;
+            color: #38516d;
             text-decoration: none;
         }
         .nav-bar {
@@ -1195,8 +1151,9 @@
         }
         .nav-item :hover {
             font-size: 24px;
-            color: #A1C0DE;
+            color: #38516d;
             text-decoration: underline;
+            text-decoration-color: #2ddec0;
         }
         .hamburger {
             display:block;
@@ -1210,16 +1167,21 @@
             margin: 5px auto;
             -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-            background-color: #6F869E;
+            background-color: #38516d;
+        }
+        .bar:nth-child(2) {
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(2) {
             opacity: 0;
         }
         .hamburger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
+            background-color: #2ddec0;
         }
         .nav-menu {
             position: fixed;
@@ -1258,8 +1220,8 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1267,20 +1229,22 @@
             /* margin-left: 0;
             margin-right: auto; */
             margin-top: 16px;
+            background-color: #ffffffee;
         }
         h2 {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 28px;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
             /* margin-left: 0;
             margin-right: auto; */
-            margin-top: 64px; 
+            margin-top: 64px;
+            background-color: #ffffffee; 
         }
         .infoContainer {
             display: flex;
@@ -1302,10 +1266,11 @@
         }
         .bgPara {
             font-size: 20px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
             margin-left: 32px;
             margin-right: 32px;
+            background-color: #ffffffee;
         }
         .gp-content {
             display: flex;
@@ -1379,9 +1344,9 @@
         }
         .gpPara {
             font-size: 18px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
-            background-color: #ffffffbe;
+            background-color: #ffffffee;
         }
         * {
             box-sizing:border-box;
@@ -1399,7 +1364,7 @@
             font-size: 24px;
             color: #ffffff;
             border-radius: 16px;
-            background-color: #6F869E;
+            background-color: #38516d;
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
         }
         .pageLink:hover {
@@ -1411,7 +1376,7 @@
             height: 40px;
             margin: auto;
             font-size: 24px;
-            color: #6F869E;
+            color: #38516d;
             border-style: solid;
             border-radius: 16px;
             background-color: #ffffff;
@@ -1420,7 +1385,7 @@
         .rectangle {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #2ddec0;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 102px;
         }
@@ -1435,30 +1400,9 @@
         .rectangleF {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #38516d;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 32px;
-        }
-        .resumeNav {
-            margin-right: 96px;
-            margin-left: auto;
-        } 
-        .resumeTop {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-        }
-        .resumeTopbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-            padding-left: 149.79px; 
         }
         .rButton {
             display: flex;
@@ -1467,7 +1411,7 @@
             justify-content: center;
             gap: 6px;
             color: #ffffff;
-            background-color: #6F869E;
+            background-color: #38516d;
             width: 96px;
             height: 96px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1495,8 +1439,8 @@
             cursor: pointer;
         }
         .rBtxt {
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
@@ -1509,7 +1453,7 @@
         body {
             background-color: #ffffff;
             background-image: url(Structure/Background.png);
-            font-family: tahoma, Helvetica, sans-serif;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .header {
             position: sticky;
@@ -1527,8 +1471,8 @@
         .myName {
             display: flex;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1541,8 +1485,8 @@
         .headerContent {
             display: none;
             flex-direction: row;
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1555,14 +1499,14 @@
             margin-left: 16px;
             margin-right: auto;
             margin-top: 16px;
-            /* padding-right: 180px; */
+            /* padding-right: 201.72px; */
             padding-bottom: 6px;
         }
         li {
             list-style: none;
         }
         a {
-            color: #6F869E;
+            color: #38516d;
             text-decoration: none;
         }
         .nav-bar {
@@ -1579,8 +1523,9 @@
         }
         .nav-item :hover {
             font-size: 24px;
-            color: #A1C0DE;
+            color: #38516d;
             text-decoration: underline;
+            text-decoration-color: #2ddec0;
         }
         .hamburger {
             display:block;
@@ -1594,16 +1539,21 @@
             margin: 5px auto;
             -webkit-transition: all 0.3s ease-in-out;
             transition: all 0.3s ease-in-out;
-            background-color: #6F869E;
+            background-color: #38516d;
+        }
+        .bar:nth-child(2) {
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(2) {
             opacity: 0;
         }
         .hamburger.active .bar:nth-child(1) {
             transform: translateY(8px) rotate(45deg);
+            background-color: #2ddec0;
         }
         .hamburger.active .bar:nth-child(3) {
             transform: translateY(-8px) rotate(-45deg);
+            background-color: #2ddec0;
         }
         .nav-menu {
             position: fixed;
@@ -1641,8 +1591,8 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 40px;
             font-style: normal;
             font-weight: 300;
@@ -1650,20 +1600,22 @@
             /* margin-left: 0;
             margin-right: auto; */
             margin-top: 16px;
+            background-color: #ffffffee;
         }
         h2 {
             display: flex;
             flex-direction: row;
             justify-content: center;
-            color: #6f869e;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 28px;
             font-style: normal;
             font-weight: 300;
             line-height: normal;
             /* margin-left: 0;
             margin-right: auto; */
-            margin-top: 64px; 
+            margin-top: 64px;
+            background-color: #ffffffee; 
         }
         .infoContainer {
             display: flex;
@@ -1688,10 +1640,11 @@
         }
         .bgPara {
             font-size: 18px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
             margin-left: 16px;
             margin-right: 16px;
+            background-color: #ffffffee;
         }
         .gp-content {
             display: flex;
@@ -1764,9 +1717,9 @@
         }
         .gpPara {
             font-size: 18px;
-            color: #7a7a7a;
+            color: #38516d;
             padding-top: 24px;
-            background-color: #ffffffbe;
+            background-color: #ffffffee;
         }
         * {
             box-sizing:border-box;
@@ -1784,7 +1737,7 @@
             font-size: 24px;
             color: #ffffff;
             border-radius: 16px;
-            background-color: #6F869E;
+            background-color: #38516d;
             box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
         }
         .pageLink:hover {
@@ -1796,7 +1749,7 @@
             height: 40px;
             margin: auto;
             font-size: 24px;
-            color: #6F869E;
+            color: #38516d;
             border-style: solid;
             border-radius: 16px;
             background-color: #ffffff;
@@ -1805,7 +1758,7 @@
         .rectangle {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #2ddec0;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 102px;
         }
@@ -1820,30 +1773,9 @@
         .rectangleF {
             width: fill;
             height: 4px;
-            background: #BCD2EB;
+            background: #38516d;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
             margin-top: 32px;
-        }
-        .resumeNav {
-            margin-right: 96px;
-            margin-left: auto;
-        } 
-        .resumeTop {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-        }
-        .resumeTopbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 6px;
-            color: #423a66;
-            margin-left: auto;
-            padding-left: 149.79px; 
         }
         .rButton {
             display: flex;
@@ -1852,7 +1784,7 @@
             justify-content: center;
             gap: 6px;
             color: #ffffff;
-            background-color: #6F869E;
+            background-color: #38516d;
             width: 96px;
             height: 96px;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1880,8 +1812,8 @@
             cursor: pointer;
         }
         .rBtxt {
-            color: #6F869E;
-            font-family: Tahoma;
+            color: #38516d;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
